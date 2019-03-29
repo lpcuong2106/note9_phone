@@ -1,4 +1,9 @@
 <?php
+// require_once dirname( __FILE__ ) . '/class-tgm-plugin-activation.php';
+
+ 
+ require_once (dirname(__FILE__) . '/sample/barebones-config.php');
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }

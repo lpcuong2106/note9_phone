@@ -9985,6 +9985,9 @@
 </head>
 
 <body>
+    <?php 
+        global  $redux_pc;
+     ?>
     <div class="ladi-wraper-page" lp-tk="{&quot;idgAny&quot;:&quot;true&quot;,&quot;pixel&quot;:&quot;true&quot;,&quot;idgAds&quot;:&quot;true&quot;}">
         <div id="SECTION100" class="widget-section ladi-drop lazy-hidden ui-droppable screenS" lp-type="widget_section" lp-widget="widget" lp-lang="SECTION" lp-display="block" lp-hashtag="canhhai198@gmail.com">
             <div class="container">
@@ -10577,6 +10580,7 @@
                                     <h1 class="widget-content" lp-node="h1">Số 88, Tổ 9, Đông Anh, Hà Nội</h1> </div>
                             </div>
                         </div>
+                    <?php if(!empty($redux_pc['support_order-opt'])){ ?>
                         <div id="GROUP1277" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1271">
                             <div class="widget-content">
                                 <div id="SHAPE1278" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1277" lp-display="block">
@@ -10589,9 +10593,11 @@
                                 <div id="HEADLINE1279" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1277" lp-display="block">
                                     <h1 class="widget-content" lp-node="h1">Tư Vấn Đặt Hàng</h1> </div>
                                 <div id="HEADLINE1280" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1277" lp-display="block">
-                                    <h1 class="widget-content" lp-node="h1">+(84) 797 764 155<br></h1> </div>
+                                    <h1 class="widget-content" lp-node="h1"><?php  echo $redux_pc['support_order-opt'] ?><br></h1> </div>
                             </div>
                         </div>
+                    <?php } ?>
+                    <?php if(!empty($redux_pc['support-opt'])){ ?>
                         <div id="GROUP1281" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1271">
                             <div class="widget-content">
                                 <div id="SHAPE1282" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1281" lp-display="block">
@@ -10604,9 +10610,11 @@
                                 <div id="HEADLINE1283" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1281" lp-display="block">
                                     <h1 class="widget-content" lp-node="h1">Hỗ Trợ Kỹ Thuật - Bảo Hành</h1> </div>
                                 <div id="HEADLINE1284" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1281" lp-display="block">
-                                    <h1 class="widget-content" lp-node="h1">+(84) 921 161 901</h1> </div>
+                                    <h1 class="widget-content" lp-node="h1"><?php  echo $redux_pc['support-opt'] ?></h1> </div>
                             </div>
                         </div>
+                    <?php } ?>
+                    <?php if(!empty($redux_pc['email-opt'])){ ?>
                         <div id="GROUP1285" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1271">
                             <div class="widget-content">
                                 <div id="SHAPE1286" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1285" lp-display="block">
@@ -10618,10 +10626,14 @@
                                 </div>
                                 <div id="HEADLINE1287" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1285" lp-display="block">
                                     <h1 class="widget-content" lp-node="h1">Email</h1> </div>
+                            
                                 <div id="HEADLINE1288" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1285" lp-display="block">
-                                    <h1 class="widget-content" lp-node="h1">dathang.smartphone@gmail.com</h1> </div>
+                                    <h1 class="widget-content" lp-node="h1"><?php  echo $redux_pc['email-opt'] ?></h1> 
+                                </div>
+                           
                             </div>
                         </div>
+                    <?php } ?>
                     </div>
                 </div>
                 <div id="GROUP907" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block">

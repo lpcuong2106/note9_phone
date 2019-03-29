@@ -13,7 +13,7 @@ class SiteManagerAdvancedCache {
 	);
 	private $allowed_query_keys;
 	private $site_mode = false;
-	private $theme_switcher_disabled = true;
+	private $theme_switcher_disabled = false;
 	private $replace_class_file;
 
 	function __construct() {

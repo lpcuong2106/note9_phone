@@ -1,0 +1,46 @@
+2019-03-29T13:05:32+00:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-29T13:06:05+00:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-29T13:09:40+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core\init.php on line 3
+
+2019-03-29T13:09:46+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core\init.php on line 3
+
+2019-03-29T13:09:47+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core\init.php on line 3
+
+2019-03-29T13:10:18+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core\init.php on line 3
+
+2019-03-29T13:12:21+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core\init.php on line 3
+
+2019-03-29T13:12:33+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\core\init.php on line 3
+
+2019-03-29T13:17:11+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child/sample/sample-config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 5
+
+2019-03-29T13:17:12+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child/sample/sample-config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 5
+
+2019-03-29T13:20:16+00:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
