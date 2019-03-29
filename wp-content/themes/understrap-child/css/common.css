@@ -62,6 +62,14 @@ Version: 3.0
 }
 
 /* THÔNG BÁO SUBMIT FORM */
+.wpcf7-response-output {
+    top: 693px !important;
+    left: 56px!important;
+    padding: 0px!important;
+    width: 447px !important;
+    height: 40px!important;
+    position: absolute;
+}
 .wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
     color: #D8000C;
     background-color: #FFBABA;
