@@ -22,7 +22,23 @@ Version: 3.0
     height: 326.453125px;
     position: absolute;
 } */
-/* Ý KIẾN KHÁCH HÀNG */
+
+/* #config-custommer-photo {
+    top: 84.8125px;
+    left: 0px;
+    width: 914.5625px;
+    height: 108.8125px;
+}
+#config-custommer-photo > .widget-content {
+    background-color: rgba(255,255,255,0);
+    color: rgba(0,0,0,1);
+}
+#box-photo {
+    top: 0px;
+    left: 0px;
+    width: 90.296875px;
+    height: 95px;
+} */
 .custommer-image-photo {
     border-radius: 220px;
 }

@@ -22,8 +22,8 @@ add_action( 'wp_enqueue_scripts', 'understrap_remove_scripts', 20 );
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
 
-	// Get the theme data
-	$the_theme = wp_get_theme();
+    // Get the theme data
+    $the_theme = wp_get_theme();
     wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.min.css', array(), $the_theme->get( 'Version' ) );
     wp_enqueue_script( 'jquery');
     wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get( 'Version' ), true );
@@ -59,6 +59,51 @@ if ( version_compare($GLOBALS['wp_version'], '5.0-beta', '>') ) {
 } else {
     // WP < 5 beta
     add_filter( 'gutenberg_can_edit_post_type', '__return_false' );
+}
+
+/* CREATE SHORT CODE Ý KIẾN KHÁCH HÀNG */
+if(!function_exists('create_shortcode_comment_custommer')) {
+    function create_shortcode_comment_custommer() {
+        $xhtml = '';
+        $data = array(
+            'custommer_1.jpg||Phạm Huy Cường||Đã Mua Tại dienthoaithongminh.info||Đã mua và cảm thấy rất hài lòng về máy. Cấu hình ngon cộng thêm camera rất đẹp. Pin xài tương đối ổn, cảm biến vân tay nhạy. Nói chung là siêu phẩm nên không có gì phải phàn nàn.||GROUP1059||BOX1060||GROUP1061||HEADLINE1067||GROUP1068||HEADLINE1069||HEADLINE1070||icon-star-cs1.png',
+            'custommer_2.jpg||Hoàng Nữ Minh Châu||Đã Mua Tại dienthoaithongminh.info||Siêu phẩm xứng đáng, quà tặng giá trị, màn hình đẹp, camera xuất sắc. Nhân viên tư vấn dễ thương nhiệt tình. Mình sẽ giới thiệu thêm bạn bè ủng hộ cửa hàng.||GROUP1071||BOX1072||GROUP1073||HEADLINE1078||GROUP1079||HEADLINE1080||HEADLINE1081||icon-star-cs2.png',
+            'custommer_3.jpg||Nguyễn Ngọc Duyên||Đã Mua Tại dienthoaithongminh.info||Máy này đúng là siêu phẩm mình thấy rất mượt chơi game không nóng, nhiều người không thích exyno mà với mình exyno rất tốt, có cái riêng của Samsung.||GROUP1082||BOX1083||GROUP1084||HEADLINE1090||GROUP1091||HEADLINE1092||HEADLINE1093||icon-star-cs3.png'
+        );
+        foreach ($data as $key => $item) {
+            $exdata = explode('||',$item);
+            $xhtml.= '<div id="'.$exdata[4].'" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1253">
+                        <div class="widget-content">
+                            <div id="'.$exdata[5].'" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP1059" lp-display="block">
+                                <div class="widget-content">';
+            $xhtml.=                  '<img class="custommer-image-photo" src="http://note9.sharenows.com/wp-content/uploads/2019/03/'.$exdata[0].'">';
+            $xhtml.=            '</div>
+                                <div class="ladi-widget-overlay"></div>
+                            </div>
+                            <div id="'.$exdata[6].'" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1059">
+                                <div class="widget-content">';
+            $xhtml.=                '<img class="custommer-star-photo" src="http://note9.sharenows.com/wp-content/uploads/2019/03/'.$exdata[11].'">';   
+            $xhtml.=            '</div>
+                            </div>
+                            <div id="'.$exdata[7].'" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1059" lp-display="block">';
+            $xhtml.=                  '<p class="widget-content" lp-node="p">'.$exdata[3].'</p>';
+            $xhtml.=        '</div>
+                            <div id="'.$exdata[8].'" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1059">
+                                <div class="widget-content">
+                                    <div id="'.$exdata[9].'" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1068" lp-display="block">';
+            $xhtml.=                     '<h6 class="widget-content" lp-node="h6">'.$exdata[1].'</h6>';
+            $xhtml.=                '</div>';
+            $xhtml.=                '<div id="'.$exdata[10].'" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1068" lp-display="block">
+                                        <h6 class="widget-content" lp-node="h6">'.$exdata[2].'</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>';
+        }
+        return $xhtml;
+    }
+    add_shortcode( 'COMMENT-CUSTOMMER', 'create_shortcode_comment_custommer');
 }
 
 
