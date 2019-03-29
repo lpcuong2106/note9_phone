@@ -403,7 +403,7 @@
         </div>
         <div id="SECTION1013" class="widget-section ladi-drop lazy-hidden ui-droppable screenS" lp-type="widget_section" lp-widget="widget" lp-lang="SECTION" lp-display="block">
             <div class="container">
-                <div id="FORM1219" class="widget-element widget-snap" lp-type="contact_form" lp-lang="FORM" lp-vt-item="[{&quot;id&quot;:&quot;ITEM_FORM1220&quot;,&quot;vt&quot;:0,&quot;name&quot;:&quot;name&quot;,&quot;valueName&quot;:&quot;name&quot;,&quot;$$hashKey&quot;:&quot;object:2871&quot;},{&quot;id&quot;:&quot;ITEM_FORM1221&quot;,&quot;vt&quot;:1,&quot;name&quot;:&quot;phone&quot;,&quot;valueName&quot;:&quot;phone&quot;,&quot;$$hashKey&quot;:&quot;object:2872&quot;},{&quot;id&quot;:&quot;ITEM_FORM1222&quot;,&quot;vt&quot;:2,&quot;name&quot;:&quot;street&quot;,&quot;valueName&quot;:&quot;street&quot;,&quot;$$hashKey&quot;:&quot;object:2873&quot;},{&quot;id&quot;:&quot;ITEM_FORM1226&quot;,&quot;vt&quot;:4,&quot;name&quot;:&quot;lpinput1&quot;,&quot;valueName&quot;:&quot;lpinput1&quot;,&quot;$$hashKey&quot;:&quot;object:2874&quot;},{&quot;id&quot;:&quot;ITEM_FORM1228&quot;,&quot;vt&quot;:3,&quot;name&quot;:&quot;lpinput2&quot;,&quot;valueName&quot;:&quot;lpinput2&quot;,&quot;$$hashKey&quot;:&quot;object:2875&quot;},{&quot;id&quot;:&quot;ITEM_FORM1227&quot;,&quot;vt&quot;:5,&quot;name&quot;:&quot;select4&quot;,&quot;valueName&quot;:&quot;select4&quot;,&quot;$$hashKey&quot;:&quot;object:2876&quot;},{&quot;id&quot;:&quot;ITEM_FORM1223&quot;,&quot;vt&quot;:6,&quot;name&quot;:&quot;select3&quot;,&quot;valueName&quot;:&quot;select3&quot;,&quot;$$hashKey&quot;:&quot;object:2877&quot;},{&quot;id&quot;:&quot;ITEM_FORM1224&quot;,&quot;vt&quot;:7,&quot;name&quot;:&quot;select1&quot;,&quot;valueName&quot;:&quot;select1&quot;,&quot;$$hashKey&quot;:&quot;object:2878&quot;},{&quot;id&quot;:&quot;ITEM_FORM1225&quot;,&quot;vt&quot;:8,&quot;name&quot;:&quot;select2&quot;,&quot;valueName&quot;:&quot;select2&quot;,&quot;$$hashKey&quot;:&quot;object:2879&quot;}]" lp-message-form="Cám ơn bạn đã quan tâm" lp-ss-f="[{&quot;name&quot;:&quot;name&quot;,&quot;value&quot;:&quot;name&quot;},{&quot;name&quot;:&quot;phone&quot;,&quot;value&quot;:&quot;phone&quot;},{&quot;name&quot;:&quot;street&quot;,&quot;value&quot;:&quot;diachi&quot;},{&quot;name&quot;:&quot;select1&quot;,&quot;value&quot;:&quot;data&quot;},{&quot;name&quot;:&quot;select2&quot;,&quot;value&quot;:&quot;color&quot;},{&quot;name&quot;:&quot;select3&quot;,&quot;value&quot;:&quot;type&quot;},{&quot;name&quot;:&quot;select1&quot;,&quot;value&quot;:&quot;data&quot;},{&quot;name&quot;:&quot;select2&quot;,&quot;value&quot;:&quot;color&quot;},{&quot;name&quot;:&quot;lpinput1&quot;,&quot;value&quot;:&quot;quanhuyen&quot;},{&quot;name&quot;:&quot;lpinput2&quot;,&quot;value&quot;:&quot;phuongxa&quot;},{&quot;name&quot;:&quot;select4&quot;,&quot;value&quot;:&quot;thanhpho&quot;},{&quot;name&quot;:&quot;lpinput2&quot;,&quot;value&quot;:&quot;phuongxa&quot;}]" id-conf-sv="5c1e03166efb27661e81fbc8" lp-id-pop-sub="POPUP988" lp-display="block" lp-traking-cus="{&quot;LabelEventTK&quot;:&quot;_etJCLj0z5EBEIfG9dMD&quot;,&quot;IdEventTK&quot;:&quot;981295879&quot;,&quot;nameEventTK&quot;:&quot;CompleteRegistration&quot;}">
+                <!-- <div id="FORM1219" class="widget-element widget-snap" lp-type="contact_form" lp-lang="FORM" lp-vt-item="[{&quot;id&quot;:&quot;ITEM_FORM1220&quot;,&quot;vt&quot;:0,&quot;name&quot;:&quot;name&quot;,&quot;valueName&quot;:&quot;name&quot;,&quot;$$hashKey&quot;:&quot;object:2871&quot;},{&quot;id&quot;:&quot;ITEM_FORM1221&quot;,&quot;vt&quot;:1,&quot;name&quot;:&quot;phone&quot;,&quot;valueName&quot;:&quot;phone&quot;,&quot;$$hashKey&quot;:&quot;object:2872&quot;},{&quot;id&quot;:&quot;ITEM_FORM1222&quot;,&quot;vt&quot;:2,&quot;name&quot;:&quot;street&quot;,&quot;valueName&quot;:&quot;street&quot;,&quot;$$hashKey&quot;:&quot;object:2873&quot;},{&quot;id&quot;:&quot;ITEM_FORM1226&quot;,&quot;vt&quot;:4,&quot;name&quot;:&quot;lpinput1&quot;,&quot;valueName&quot;:&quot;lpinput1&quot;,&quot;$$hashKey&quot;:&quot;object:2874&quot;},{&quot;id&quot;:&quot;ITEM_FORM1228&quot;,&quot;vt&quot;:3,&quot;name&quot;:&quot;lpinput2&quot;,&quot;valueName&quot;:&quot;lpinput2&quot;,&quot;$$hashKey&quot;:&quot;object:2875&quot;},{&quot;id&quot;:&quot;ITEM_FORM1227&quot;,&quot;vt&quot;:5,&quot;name&quot;:&quot;select4&quot;,&quot;valueName&quot;:&quot;select4&quot;,&quot;$$hashKey&quot;:&quot;object:2876&quot;},{&quot;id&quot;:&quot;ITEM_FORM1223&quot;,&quot;vt&quot;:6,&quot;name&quot;:&quot;select3&quot;,&quot;valueName&quot;:&quot;select3&quot;,&quot;$$hashKey&quot;:&quot;object:2877&quot;},{&quot;id&quot;:&quot;ITEM_FORM1224&quot;,&quot;vt&quot;:7,&quot;name&quot;:&quot;select1&quot;,&quot;valueName&quot;:&quot;select1&quot;,&quot;$$hashKey&quot;:&quot;object:2878&quot;},{&quot;id&quot;:&quot;ITEM_FORM1225&quot;,&quot;vt&quot;:8,&quot;name&quot;:&quot;select2&quot;,&quot;valueName&quot;:&quot;select2&quot;,&quot;$$hashKey&quot;:&quot;object:2879&quot;}]" lp-message-form="Cám ơn bạn đã quan tâm" lp-ss-f="[{&quot;name&quot;:&quot;name&quot;,&quot;value&quot;:&quot;name&quot;},{&quot;name&quot;:&quot;phone&quot;,&quot;value&quot;:&quot;phone&quot;},{&quot;name&quot;:&quot;street&quot;,&quot;value&quot;:&quot;diachi&quot;},{&quot;name&quot;:&quot;select1&quot;,&quot;value&quot;:&quot;data&quot;},{&quot;name&quot;:&quot;select2&quot;,&quot;value&quot;:&quot;color&quot;},{&quot;name&quot;:&quot;select3&quot;,&quot;value&quot;:&quot;type&quot;},{&quot;name&quot;:&quot;select1&quot;,&quot;value&quot;:&quot;data&quot;},{&quot;name&quot;:&quot;select2&quot;,&quot;value&quot;:&quot;color&quot;},{&quot;name&quot;:&quot;lpinput1&quot;,&quot;value&quot;:&quot;quanhuyen&quot;},{&quot;name&quot;:&quot;lpinput2&quot;,&quot;value&quot;:&quot;phuongxa&quot;},{&quot;name&quot;:&quot;select4&quot;,&quot;value&quot;:&quot;thanhpho&quot;},{&quot;name&quot;:&quot;lpinput2&quot;,&quot;value&quot;:&quot;phuongxa&quot;}]" id-conf-sv="5c1e03166efb27661e81fbc8" lp-id-pop-sub="POPUP988" lp-display="block" lp-traking-cus="{&quot;LabelEventTK&quot;:&quot;_etJCLj0z5EBEIfG9dMD&quot;,&quot;IdEventTK&quot;:&quot;981295879&quot;,&quot;nameEventTK&quot;:&quot;CompleteRegistration&quot;}">
                     <form class="widget-content" onsubmit="return false;">
                         <div id="ITEM_FORM1220" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
                             <input class="widget-content" type="text" placeholder="Họ và Tên" name="name" lp-label="Họ và tên" lp-name-id="name" required="required">
@@ -515,180 +515,14 @@
                 </div>
                 <div id="BUTTON1229" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1219" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span>
                     </span>
-                </div>
+                </div> -->
+                <?php echo do_shortcode('[contact-form-7 id="6" title="Form 2 Giảm Giá"]'); ?>
                 <div id="GROUP1253" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block">
                     <div class="widget-content">
                         <div id="HEADLINE1058" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1253" lp-display="block">
                             <h2 class="widget-content" lp-node="h2">Ý KIẾN KHÁCH HÀNG</h2> </div>
                         <div id="PARAGRAPH1015" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-group="GROUP1253" lp-display="block">
                             <h6 class="widget-content" lp-node="h6">Đánh giá Samsung Galaxy Note 9</h6> </div>
-                        <!-- <div id="GROUP1059" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1253">
-                            <div class="widget-content">
-                                <div id="BOX1060" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP1059" lp-display="block">
-                                    <div class="widget-content"></div>
-                                    <div class="ladi-widget-overlay"></div>
-                                </div>
-                                <div id="GROUP1061" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1059">
-                                    <div class="widget-content">
-                                        <div id="SHAPE1062" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1061" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1063" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1061" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1064" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1061" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1065" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1061" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1066" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1061" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="HEADLINE1067" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1059" lp-display="block">
-                                    <p class="widget-content" lp-node="p">Đã mua và cảm thấy rất hài lòng về máy. Cấu hình ngon cộng thêm camera rất đẹp. Pin xài tương đối ổn, cảm biến vân tay nhạy. Nói chung là siêu phẩm nên không có gì phải phàn nàn.</p>
-                                </div>
-                                <div id="GROUP1068" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1059">
-                                    <div class="widget-content">
-                                        <div id="HEADLINE1069" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1068" lp-display="block">
-                                            <h6 class="widget-content" lp-node="h6">Phạm Huy Cường</h6> </div>
-                                        <div id="HEADLINE1070" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1068" lp-display="block">
-                                            <h6 class="widget-content" lp-node="h6">Đã Mua Tại dienthoaithongminh.info</h6> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="GROUP1071" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1253">
-                            <div class="widget-content">
-                                <div id="BOX1072" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP1071" lp-display="block">
-                                    <div class="widget-content"></div>
-                                    <div class="ladi-widget-overlay"></div>
-                                </div>
-                                <div id="GROUP1073" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1071">
-                                    <div class="widget-content">
-                                        <div id="SHAPE1074" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1073" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1075" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1073" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1076" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1073" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1077" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1073" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="HEADLINE1078" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1071" lp-display="block">
-                                    <p class="widget-content" lp-node="p">Siêu phẩm xứng đáng, quà tặng giá trị, màn hình đẹp, camera xuất sắc. Nhân viên tư vấn dễ thương nhiệt tình. Mình sẽ giới thiệu thêm bạn bè ủng hộ cửa hàng.</p>
-                                </div>
-                                <div id="GROUP1079" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1071">
-                                    <div class="widget-content">
-                                        <div id="HEADLINE1080" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1079" lp-display="block">
-                                            <h6 class="widget-content" lp-node="h6">Hoàng Nữ Minh Châu</h6> </div>
-                                        <div id="HEADLINE1081" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1079" lp-display="block">
-                                            <h6 class="widget-content" lp-node="h6">Đã Mua Tại dienthoaithongminh.info</h6> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="GROUP1082" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1253">
-                            <div class="widget-content">
-                                <div id="BOX1083" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP1082" lp-display="block">
-                                    <div class="widget-content"></div>
-                                    <div class="ladi-widget-overlay"></div>
-                                </div>
-                                <div id="GROUP1084" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1082">
-                                    <div class="widget-content">
-                                        <div id="SHAPE1085" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1084" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1086" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1084" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1087" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1084" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1088" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1084" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div id="SHAPE1089" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1084" lp-display="block">
-                                            <div class="widget-content">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,174,15,1)">
-                                                    <path d="M12,15.89V6.59L13.71,10.63L18.09,11L14.77,13.88L15.76,18.16M22,9.74L14.81,9.13L12,2.5L9.19,9.13L2,9.74L7.45,14.47L5.82,21.5L12,17.77L18.18,21.5L16.54,14.47L22,9.74Z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="HEADLINE1090" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1082" lp-display="block">
-                                    <p class="widget-content" lp-node="p">Máy này đúng là siêu phẩm mình thấy rất mượt chơi game không nóng, nhiều người không thích exyno mà với mình exyno rất tốt, có cái riêng của Samsung.</p>
-                                </div>
-                                <div id="GROUP1091" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1082">
-                                    <div class="widget-content">
-                                        <div id="HEADLINE1092" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1091" lp-display="block">
-                                            <h6 class="widget-content" lp-node="h6">Nguyễn Ngọc Duyên<br></h6> </div>
-                                        <div id="HEADLINE1093" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1091" lp-display="block">
-                                            <h6 class="widget-content" lp-node="h6">Đã Mua Tại dienthoaithongminh.info</h6> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
                         <?php echo do_shortcode('[COMMENT-CUSTOMMER]'); ?>
                     </div>
                 </div>
@@ -807,6 +641,7 @@
                             <input class="widget-content" type="text" placeholder="Phường / Xã" name="lpinput2" lp-label="Ô nhập tùy chọn 2" lp-name-id="phuongxa" required="required">
                         </div>
                     </form>
+                    <!-- <?php echo do_shortcode('[contact-form-7 id="5" title="Giảm giá"]'); ?> -->
                 </div>
                 <div id="BUTTON1240" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1230" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span>
                     </span>
@@ -962,11 +797,11 @@
                         <div id="HEADLINE874" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1242" lp-display="block">
                             <h2 class="widget-content" lp-node="h2">NHẬP THÔNG TIN ĐỂ ĐƯỢC NHÂN VIÊN TƯ VẤN VÀ ĐẶT HÀNG VỚI ƯU ĐÃI LỚN NGAY HÔM NAY</h2> </div>
                         <
-                            <?php echo do_shortcode('[contact-form-7 id="5" title="Giảm giá"]'); ?>
+                            <?php echo do_shortcode('[contact-form-7 id="7" title="Form Giảm Giá 3"]'); ?>
                         </div>
-                        <div id="BUTTON1218" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1208" lp-group="GROUP1242" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span>
+                        <!-- <div id="BUTTON1218" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1208" lp-group="GROUP1242" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span>
                             </span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div id="GROUP1255" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-sticky="1" lp-sticky-pos="bottom" lp-sticky-kc="0px">

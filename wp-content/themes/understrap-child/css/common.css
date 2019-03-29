@@ -10,35 +10,34 @@ Version: 3.0
 
 /* An Cao 28032019 */
 
-/** CONTACT FORM **/
-/* #wpcf7-f12-o1 {
-    position: absolute;
-    z-index: 1;
+/** CONTACT FORM  **/
+.wpcf7-form-control {
+    padding: 8px 5px;
 }
-.wpcf7 {
-    top: 285.5px;
-    left: 52.625px;
-    width: 448.609375px;
-    height: 326.453125px;
+@media (min-width: 768px) {
+    .config-submit-buy {
+        top: 336px !important;
+        left: 0px!important;
+        padding: 0px!important;
+        width: 100% !important;
+        height: 40px!important;
+    }
+}
+.config-submit-buy .widget-content {
     position: absolute;
-} */
+}
+.wpcf7-submit {
+    color: rgb(255, 255, 255);
+    top: -50px;
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.ladi-animated-headline {
+    width: 100%;
+}
 
-/* #config-custommer-photo {
-    top: 84.8125px;
-    left: 0px;
-    width: 914.5625px;
-    height: 108.8125px;
-}
-#config-custommer-photo > .widget-content {
-    background-color: rgba(255,255,255,0);
-    color: rgba(0,0,0,1);
-}
-#box-photo {
-    top: 0px;
-    left: 0px;
-    width: 90.296875px;
-    height: 95px;
-} */
+/* Ý KIẾN KHÁCH HÀNG */
 .custommer-image-photo {
     border-radius: 220px;
 }
@@ -61,3 +60,4 @@ Version: 3.0
     display: inline-block;
     letter-spacing: 0;
 }
+

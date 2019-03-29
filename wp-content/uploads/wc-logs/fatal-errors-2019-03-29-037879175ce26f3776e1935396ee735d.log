@@ -64,3 +64,7 @@ Stack trace:
 #5 {main}
   thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
 
+2019-03-29T16:32:53+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-29T17:42:40+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
