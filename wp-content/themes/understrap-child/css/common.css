@@ -61,3 +61,41 @@ Version: 3.0
     letter-spacing: 0;
 }
 
+/* THÔNG BÁO SUBMIT FORM */
+.wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
+    color: #D8000C;
+    background-color: #FFBABA;
+    border-radius: .25rem !important;
+}
+.wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    border-radius: .25rem !important;
+}
+div.wpcf7-mail-sent-ok:before,div.wpcf7-validation-errors:before {
+    font: 26px/30px FontAwesome;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+div.wpcf7-mail-sent-ok:before {
+    content:'\f00c';
+}
+div.wpcf7-validation-errors:before {
+    content:'\f057';
+}
+div.wpcf7-response-output {
+    margin: 2em 0 0em !important;
+}
+.wpcf7 input:focus[type=submit] {
+    box-shadow: none !important;
+    background: #2196f3 !important;
+}
+.wpcf7 .wpcf7-validation-errors {
+    border: 2px solid #D8000C !important;
+}
+.wpcf7-form .wpcf7-response-output.wpcf7-validation-errors, .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+    margin-top: -20px !important;
+}
+.btn:hover, .wpcf7 input:hover[type=submit] , .wpcf7 input:focus[type=submit] {
+    color: #fff !important;
+}
