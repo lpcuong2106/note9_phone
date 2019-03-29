@@ -135,3 +135,5 @@ if(!function_exists('create_shortcode')) {
         echo 'hello world';
     }
 }
+
+echo 'abc';
