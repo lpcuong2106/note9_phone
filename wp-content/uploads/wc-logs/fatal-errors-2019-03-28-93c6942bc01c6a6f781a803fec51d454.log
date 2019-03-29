@@ -1,0 +1,41 @@
+2019-03-28T17:12:21+00:00 CRITICAL Uncaught Error: Call to undefined function function_exits() in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php:60
+Stack trace:
+#0 /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-settings.php(479): include()
+#1 /home/fphuoca1/note9.sharenows.com/wp-config.php(97): require_once('/home/fphuoca1/...')
+#2 /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-load.php(42): require_once('/home/fphuoca1/...')
+#3 /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-admin/admin-ajax.php(22): require_once('/home/fphuoca1/...')
+#4 {main}
+  thrown in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php on line 60
+
+2019-03-28T17:12:22+00:00 CRITICAL Uncaught Error: Call to undefined function function_exits() in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php:60
+Stack trace:
+#0 /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-settings.php(479): include()
+#1 /home/fphuoca1/note9.sharenows.com/wp-config.php(97): require_once('/home/fphuoca1/...')
+#2 /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-load.php(42): require_once('/home/fphuoca1/...')
+#3 /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-blog-header.php(13): require_once('/home/fphuoca1/...')
+#4 /home/fphuoca1/note9.sharenows.com/DocumentRoot/index.php(17): require('/home/fphuoca1/...')
+#5 {main}
+  thrown in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php on line 60
+
+2019-03-28T17:12:54+00:00 CRITICAL Uncaught Error: Call to undefined function function_exits() in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php:60
+Stack trace:
+#0 /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-settings.php(479): include()
+#1 /home/fphuoca1/note9.sharenows.com/wp-config.php(97): require_once('/home/fphuoca1/...')
+#2 /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-load.php(42): require_once('/home/fphuoca1/...')
+#3 /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-blog-header.php(13): require_once('/home/fphuoca1/...')
+#4 /home/fphuoca1/note9.sharenows.com/DocumentRoot/index.php(17): require('/home/fphuoca1/...')
+#5 {main}
+  thrown in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php on line 60
+
+2019-03-28T17:40:46+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php on line 92
+
+2019-03-28T17:40:56+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php on line 92
+
+2019-03-28T18:27:41+00:00 CRITICAL syntax error, unexpected '$xhtml' (T_VARIABLE) in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php on line 82
+
+2019-03-28T18:27:42+00:00 CRITICAL syntax error, unexpected '$xhtml' (T_VARIABLE) in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php on line 82
+
+2019-03-28T18:28:15+00:00 CRITICAL syntax error, unexpected '$xhtml' (T_VARIABLE) in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php on line 75
+
+2019-03-28T18:28:16+00:00 CRITICAL syntax error, unexpected '$xhtml' (T_VARIABLE) in /home/fphuoca1/note9.sharenows.com/DocumentRoot/wp-content/themes/understrap-child/functions.php on line 75
+

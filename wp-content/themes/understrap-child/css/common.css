@@ -1,0 +1,47 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+/* An Cao 28032019 */
+
+/** CONTACT FORM **/
+/* #wpcf7-f12-o1 {
+    position: absolute;
+    z-index: 1;
+}
+.wpcf7 {
+    top: 285.5px;
+    left: 52.625px;
+    width: 448.609375px;
+    height: 326.453125px;
+    position: absolute;
+} */
+/* Ý KIẾN KHÁCH HÀNG */
+.custommer-image-photo {
+    border-radius: 220px;
+}
+.custommer-image-photo {
+    background-color: rgba(189, 189, 189, 1);
+    color: rgba(0, 0, 0, 1);
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.custommer-image-photo {
+    text-rendering: unset!important;
+    width: 100%;
+    height: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    display: inline-block;
+    letter-spacing: 0;
+}
