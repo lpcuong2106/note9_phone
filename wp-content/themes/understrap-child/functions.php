@@ -131,5 +131,7 @@ if ( !function_exists('register_sidebar_footer') ){
 
 /* CREATE SHORT CODE */
 if(!function_exists('create_shortcode')) {
-    
+    if(!class_exists('Cuongdeptrai')){
+        echo 'hello world';
+    }
 }
