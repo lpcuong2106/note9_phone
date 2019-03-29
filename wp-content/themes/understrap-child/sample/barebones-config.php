@@ -283,7 +283,7 @@
                 'id'       => 'time-opt',
                 'type'     => 'text',
                 'title'    => __( 'Thời gian làm việc', 'note9' ),
-                'subtitle' => __( 'Thời gian làm việc hiển thị ở Header.', 'note9' ),
+                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
                 'hint'     => array(
                     'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
                 )
