@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2019-03-30T00:26:19+00:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
 Stack trace:
 #0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
@@ -63,4 +64,49 @@ Stack trace:
 2019-03-30T10:55:33+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 44
 
 2019-03-30T10:56:04+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 45
+=======
+2019-03-30T01:29:43+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in C:\xampp\htdocs\note_9\wp-content\themes\understrap-child\functions.php on line 132
+
+2019-03-30T01:33:59+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T02:00:12+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T02:15:55+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\note_9\wp-content\themes\understrap-child/core/plugins.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\note_9\wp-content\themes\understrap-child\functions.php on line 6
+
+2019-03-30T02:15:57+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\note_9\wp-content\themes\understrap-child/core/plugins.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\note_9\wp-content\themes\understrap-child\functions.php on line 6
+
+2019-03-30T02:18:14+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T02:18:29+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T02:18:39+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T02:18:49+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+>>>>>>> origin/ancao
+
+2019-03-30T05:28:41+00:00 CRITICAL syntax error, unexpected '<<' (T_SL), expecting end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 130
+
+2019-03-30T05:30:41+00:00 CRITICAL syntax error, unexpected '<<' (T_SL), expecting end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 130
+
+2019-03-30T05:32:43+00:00 CRITICAL syntax error, unexpected '<<' (T_SL), expecting end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 130
+
+2019-03-30T05:38:53+00:00 CRITICAL syntax error, unexpected '<<' (T_SL), expecting end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 130
+
+2019-03-30T05:39:09+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 200
+
+2019-03-30T05:39:39+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 199
+
+2019-03-30T05:39:41+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 199
+
+2019-03-30T12:40:02+07:00 CRITICAL syntax error, unexpected '===' (T_IS_IDENTICAL), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 372
+
+2019-03-30T12:41:40+07:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
 

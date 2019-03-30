@@ -145,3 +145,55 @@ if(!function_exists('count_time')){
     }
     add_shortcode('COUNT_TIME', 'count_time');
 }
+/** CREATE CUSTOM POST SLIDER ADD MENU WORDPRESS**/
+function slider_post_type(){
+    $label = array(
+        'name' => 'Ảnh slider',
+        'singular_name' => 'slider',
+    );
+    $args = array(
+        'labels' => $label,
+        'description' => 'Post type đăng slider',
+        'supports' => array(
+            'title',
+            'thumbnail',
+        ),
+        'hierarchical' => false, //Cho phép phân cấp, nếu là false thì post type này giống như Post, true thì giống như Page
+        'public' => true, //Kích hoạt post type
+        'show_ui' => true, //Hiển thị khung quản trị như Post/Page
+        'show_in_menu' => true, //Hiển thị trên Admin Menu (tay trái)
+        'show_in_nav_menus' => true, //Hiển thị trong Appearance -> Menus
+        'show_in_admin_bar' => true, //Hiển thị trên thanh Admin bar màu đen.
+        'menu_position' => 100, //Thứ tự vị trí hiển thị trong menu (tay trái)
+        'menu_icon' => 'dashicons-format-gallery', //Đường dẫn tới icon sẽ hiển thị
+        'can_export' => true, //Có thể export nội dung bằng Tools -> Export
+        'has_archive' => true, //Cho phép lưu trữ (month, date, year)
+        'exclude_from_search' => false, //Loại bỏ khỏi kết quả tìm kiếm
+        'publicly_queryable' => true, //Hiển thị các tham số trong query, phải đặt true
+        'capability_type' => 'post' //
+    );
+    register_post_type('slider', $args);
+}
+add_action('init', 'slider_post_type');
+
+/* CREATE SHORT CODE SLIDER HOME */
+if (!function_exists('create_shortcode_show_slider')) {
+    function create_shortcode_show_slider($args){
+        if(isset($args['number'])){ ?>
+            <?php
+                $getposts = new WP_query(); $getposts->query('post_status=publish&showposts='.$args['number'].'&post_type=slider'); 
+                global $wp_query; $wp_query->in_the_loop = true;
+                while ($getposts->have_posts()) : $getposts->the_post(); { ?>
+                    <div id="config-slider-images" class="custommer-slider-images widget-element widget-item-child" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
+                        <div class="widget-content">
+                            <?php echo get_the_post_thumbnail(get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
+                        </div>
+                        <div class="ladi-widget-overlay"></div>
+                    </div>    
+                <?php };
+                endwhile; wp_reset_postdata();
+            ?>	
+        <?php }
+    };
+    add_shortcode('SHOW-SLIDER', 'create_shortcode_show_slider');
+};

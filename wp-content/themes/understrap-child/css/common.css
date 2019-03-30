@@ -107,3 +107,20 @@ div.wpcf7-response-output {
 .btn:hover, .wpcf7 input:hover[type=submit] , .wpcf7 input:focus[type=submit] {
     color: #fff !important;
 }
+
+/* SLIDER HOME */
+@media (min-width: 768px) {
+    .custommer-slider-images {
+        top: 0px !important;
+        left: 5px !important;
+        width: 617px !important;
+        height: 366.765625px !important;
+    }
+}
+.custommer-slider-images .ladi-widget-overlay {
+    background-color: rgba(255,255,255,0);
+}
+
+.custommer-slider-images .widget-content {
+    position: absolute;
+}
