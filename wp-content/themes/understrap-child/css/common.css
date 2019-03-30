@@ -107,6 +107,9 @@ div.wpcf7-response-output {
 .btn:hover, .wpcf7 input:hover[type=submit] , .wpcf7 input:focus[type=submit] {
     color: #fff !important;
 }
+.wpcf7-form .wpcf7-response-output.wpcf7-validation-errors, .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+    display: none;
+}
 
 /* SLIDER HOME */
 @media (min-width: 768px) {
@@ -130,4 +133,67 @@ div.wpcf7-response-output {
     .box-infomation-cout-time {
         left: 328px !important;
     }
+}
+
+/* THÔNG BÁO KHÔNG NHẬP */
+.screen-reader-response {
+    display:none;
+}
+.screen-reader-response {
+    
+    opacity: .9;
+    right: 0;
+    bottom: -35px;
+    z-index: 999;
+    padding: 0 5px;
+    border-radius: 10px;
+    height: 35px;
+    position: absolute;
+    background: #323232;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+
+    top: 250px;
+    left: 53.010544px;
+    width: 448.078125px;
+}
+/* .screen-reader-response:before {
+    content: "Vui lòng điền vào trường này";
+    display: inline;
+} */
+.screen-reader-response:after{
+    height: 0;
+    width: 0;
+    position: absolute;
+    margin-left: -15px;
+    bottom: 0;
+    z-index: 9;
+    border-color: #323232 transparent #32323200;
+    border-style: solid;
+    border-width: 7px;
+    content: "";
+    margin-bottom: -14px;
+    left: 25px;
+}
+.screen-reader-response ul li {
+    display: none;
+}
+/* THÔNG BÁO KHÔNG NHẬP FORM 2 */
+#SECTION1013 .container .wpcf7 .screen-reader-response {
+    top: 428.011806px;
+    left: 103.017739px;
+    width: 753.8125px;
+}
+#SECTION1013 .container .wpcf7 .screen-reader-response ul li {
+    display: none;
+}
+/* THÔNG BÁO KHÔNG NHẬP FORM CUỐI FOOTER */
+#GROUP1242 .widget-content .wpcf7 .screen-reader-response {
+    top: 70px;
+    left: 8.010544px !important;
+    width: 448.078125px;
+}
+#GROUP1242 .widget-content .wpcf7 .screen-reader-response ul li {
+    display: none;
 }
