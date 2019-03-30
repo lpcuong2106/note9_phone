@@ -273,6 +273,13 @@
                     'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
                 )
             ),
+           
+            array(
+                'id'       => 'gio-opt',
+                'type'     => 'text',
+                'title'    => __( 'gio', 'note9' ),
+                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
+            ),
             array(
                 'id'       => 'number-slider-opt',
                 'type'     => 'text',
@@ -281,6 +288,32 @@
                 'hint'     => array(
                     'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
                 )
+            ),
+             array(
+                'id'       => 'phut-opt',
+                'type'     => 'text',
+                'title'    => __( 'phut', 'note9' ),
+                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
+                'hint'     => array(
+                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
+                )
+            ),
+              array(
+                'id'       => 'giay-opt',
+                'type'     => 'text',
+                'title'    => __( 'giay', 'note9' ),
+                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
+                'hint'     => array(
+                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
+                )
+            ),
+            array(
+                'id'          => 'opt-date',
+                'type'        => 'date',
+                'title'       => __('Date Option', 'redux-framework-demo'), 
+                'subtitle'    => __('No validation can be done on this field type', 'redux-framework-demo'),
+                'desc'        => __('This is the description field, again good for additional info.', 'redux-framework-demo'),
+                'placeholder' => 'Click to enter a date'
             ),
             array(
 
