@@ -171,7 +171,7 @@
                                     $options = get_option( 'note91_setting_theme' );
                                     if (isset($options['note91_price_sale'])){ $note91_price_sale = $options['note91_price_sale'];}
                                     ?>
-                              <?php if ( $note91_price_sale != "" ){ echo $note91_price_sale .'VNĐ'; }?> </h2> </div>
+                              <?php if ( $note91_price_sale != "" ){ echo number_format($note91_price_sale) .'VNĐ'; }?> </h2> </div>
                         <div id="HEADLINE648" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1000" lp-display="block">
                             <h2 class="widget-content" lp-node="h2"> 
                               <?php
@@ -188,7 +188,7 @@
                                     $options = get_option( 'note91_setting_theme' );
                                     if (isset($options['note91_price'])){ $note91_price = $options['note91_price'];}
                                     ?>
-                              <?php if ( $note91_price != "" ){ echo '&nbsp;'.$note91_price .'VNĐ&nbsp;'; }?>
+                              <?php if ( $note91_price != "" ){ echo '&nbsp;'.number_format($note91_price) .'VNĐ&nbsp;'; }?>
                             </h2> </div>
                         <div id="CAROUSEL1256" class="widget-element ladi-drop ladi-carousel" data-carousel="{&quot;autoplay&quot;:true,&quot;delay&quot;:5000}" lp-type="slider" lp-lang="CAROUSEL" lp-delay="5000" lp-autoplay="1" lp-group="GROUP1000" lp-display="block">
                             <div class="widget-content">
@@ -477,7 +477,13 @@
                         <div id="HEADLINE1058" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1253" lp-display="block">
                             <h2 class="widget-content" lp-node="h2">Ý KIẾN KHÁCH HÀNG</h2> </div>
                         <div id="PARAGRAPH1015" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-group="GROUP1253" lp-display="block">
-                            <h6 class="widget-content" lp-node="h6">Đánh giá Samsung Galaxy Note 9</h6> </div>
+                            <h6 class="widget-content" lp-node="h6">Đánh giá    
+                              <?php
+                                $options = get_option( 'note91_setting_theme' );
+                                if (isset($options['note91_name_product'])){ $note91_name_product = $options['note91_name_product'];}
+                                ?>
+                                <?php if ( $note91_name_product != "" ){ echo ucwords(strtolower($note91_name_product)); } 
+                              ?></h6> </div>
                         <?php echo do_shortcode('[COMMENT-CUSTOMMER]'); ?>
                     </div>
                 </div>
@@ -655,7 +661,22 @@
                         <div id="BOX840" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP1255" lp-display="block" lp-hashtag="canhhai198@gmail.com" lp-action-link="POPUP930" lp-action-type="popup" lp-target="" href="">
                             <div class="widget-content">
                                 <div id="HEADLINE843" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-display="block" lp-action-link="POPUP930" lp-action-type="popup" lp-target="" href="">
-                                    <h2 class="widget-content" lp-node="h2">GIẢM TỚI 72%, GIÁ CHỈ CÒN 2.699.000 VNĐ<br color="" style="color: rgb(12, 53, 117);"></h2> </div>
+                                    <h2 class="widget-content" lp-node="h2">
+                                      <?php 
+                                      $options = get_option( 'note91_setting_theme' );
+                                      if (isset($options['note91_price_sale']) && isset($options['note91_price'])){ 
+                                        echo 'GIẢM TỚI ' . do_shortcode('[PERCENTAGE]') .', GIÁ CHỈ CÒN' ;
+                                      }else{
+                                        echo 'GIÁ CHỈ ';
+                                      }
+                                      ?> 
+                              <?php
+                              $options = get_option( 'note91_setting_theme' );
+                              if (isset($options['note91_price_sale'])){ $note91_price_sale = $options['note91_price_sale'];}else if(isset($options['note91_price'])){$note91_price = $options['note91_price'];};
+                              ?>
+                              <?php if ( $note91_price_sale != "" ){ echo number_format($note91_price_sale) .'VNĐ'; }else if($note91_price != "" ){
+                                  echo number_format($note91_price) .'VNĐ';
+                              }?><br color="" style="color: rgb(12, 53, 117);"></h2> </div>
                             </div>
                             <div class="ladi-widget-overlay"></div>
                         </div>

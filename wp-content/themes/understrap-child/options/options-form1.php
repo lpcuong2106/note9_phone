@@ -92,11 +92,11 @@ function note91_settings_page() {
                 </tr>
                 <tr valign="top">
                     <th scope="row" style="color:rgba(12,53,117,1)">Giá chưa giảm</th>
-                    <td><input type="text" size="80" name="note91_setting_theme[note91_price]" value="<?php echo $options['note91_price']; ?>" /></td>
+                    <td><input type="number" size="80" name="note91_setting_theme[note91_price]" value="<?php echo $options['note91_price']; ?>" /></td>
                 </tr>
                 <tr valign="top">
                     <th scope="row" style="color:red">Giá sản phẩm</th>
-                    <td><input type="text" size="80" name="note91_setting_theme[note91_price_sale]" value="<?php echo $options['note91_price_sale']; ?>" /></td>
+                    <td><input type="number" size="80" name="note91_setting_theme[note91_price_sale]" value="<?php echo $options['note91_price_sale']; ?>" /></td>
                 </tr>
             </table>
             <?php submit_button(); ?>
@@ -104,3 +104,19 @@ function note91_settings_page() {
     </form>
 </div>
 <?php } ?>
+<?php 
+
+if(!function_exists('sale_product')){
+    function sale_product(){
+        $options = get_option( 'note91_setting_theme' );
+        if (isset($options['note91_price_sale']) && isset($options['note91_price'])){ 
+            $price = $options['note91_price'];
+            $sale = $options['note91_price_sale'];
+            $percentageSale = round(100- ($sale /$price) *100) . '%';
+            return $percentageSale;
+        }
+    }
+    add_shortcode('PERCENTAGE', 'sale_product');
+}
+
+?>
