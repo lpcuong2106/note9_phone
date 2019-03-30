@@ -110,3 +110,15 @@ Stack trace:
 #5 {main}
   thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
 
+2019-03-30T05:08:00+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T05:19:33+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\note_9\wp-content\themes\understrap-child/options/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\note_9\wp-content\themes\understrap-child\functions.php on line 6
+
+2019-03-30T05:20:13+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\note_9\wp-content\themes\understrap-child/options/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\note_9\wp-content\themes\understrap-child\functions.php on line 6
+
+2019-03-30T05:20:41+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\note_9\wp-content\themes\understrap-child/options/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\note_9\wp-content\themes\understrap-child\functions.php on line 6
+
+2019-03-30T05:20:42+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\note_9\wp-content\themes\understrap-child/options/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\note_9\wp-content\themes\understrap-child\functions.php on line 6
+
+2019-03-30T05:21:37+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
