@@ -347,6 +347,20 @@
                 'compiler' => 'true',
                 'desc'     => __( 'Cho phép dùng đuôi: jpg, png, gif', 'note9' ),
             ),
+            array(
+                'id'       => 'images-background-opt',
+                'type'     => 'media',
+                'title'    => __( 'Ảnh nền header', 'note9' ),
+                'compiler' => 'true',
+                'desc'     => __( 'Cho phép dùng đuôi: jpg, png, gif', 'note9' ),
+            ),
+            array(
+                'id'       => 'images-dungcu-opt',
+                'type'     => 'media',
+                'title'    => __( 'Ảnh bộ sản phẩm gồm', 'note9' ),
+                'compiler' => 'true',
+                'desc'     => __( 'Cho phép dùng đuôi: jpg, png, gif', 'note9' ),
+            ),
         )
     ) );
 

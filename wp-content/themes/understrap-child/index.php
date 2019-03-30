@@ -3,26 +3,14 @@
 <?php date_default_timezone_set("Asia/Bangkok"); ?>
 <head lang="en">
 <meta charset="UTF-8">
-      <title class="title-site" lp-id="5c1dfd966efb27661e81fa29">Điện Thoại Thông Minh Giá Rẻ Note 9</title>
+      
       <meta http-equiv="Cache-control" content="no-cache">
       <meta http-equiv="Expires" content="-1">
-      <meta name="description" content="Giảm giá 72% chỉ còn 2 triệu 499k sở hữu ngay Samsung Galaxy S9. Click để biết thêm chi tiết...">
+      <meta name="description" content="">
       <meta name="keywords" content="dienthoaithongminh; didongthongminh; điện thoại thông minh; điện thoại giá rẻ; điện thoại rẻ; điện thoại galaxy note 9; samsung galaxy note 9; galaxy s9">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script>function ladiViewport(){var width = (window.outerWidth > 0) ? window.outerWidth : screen.width;var content = "user-scalable=no";if(width < 768){content += ", width=375";}else{if(width < 960){content += ", width=960";} else {content += ", width=device-width";}}var meta=document.querySelector('meta[name="viewport"]');if (meta == undefined) {meta = document.createElement('meta'); meta.name = 'viewport'; document.head.prepend(meta);}meta.content=content; };ladiViewport();</script>
-      <meta name="robots" content="noindex, nofollow">
-      <meta property="og:title" content="Điện Thoại Thông Minh Giá Rẻ Note 9" />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="http://note9.dienthoaithongminh.info" />
-      <meta property="og:image" content="https://static.ladipage.net/5bfcbd92bb86d565230107c6/samsung-galaxy-s9-den-8-org-1544157489.jpg">
-      <meta property="og:description" content="Giảm giá 72% chỉ còn 2 triệu 499k sở hữu ngay Samsung Galaxy S9. Click để biết thêm chi tiết..." />
-      <meta name="format-detection" content="telephone=no" />
-      <link rel="shortcut icon" type="image/png" href="https://static.ladipage.net/5bfcbd92bb86d565230107c6/galaxys9s913_1280x853-800-resize-1544157209.jpg"/>
-      <link rel="dns-prefetch">
-      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-      <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
-      <link rel="preconnect" href="https://static.ladipage.net/" crossorigin>
-      <link rel="preconnect" href="https://api.ladipage.vn/" crossorigin>
+
       <link type="text/css" rel="stylesheet" media="screen, print" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:300,400,700|Montserrat:300,400,600,700|Bungee&amp;subset=latin-ext,vietnamese">
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -36,8 +24,10 @@
       <script>document.addEventListener("DOMContentLoaded",function(){var a=[].slice.call(document.querySelectorAll(".lazy-hidden")),b=[].slice.call(document.querySelectorAll("iframe.widget-content")),c=!1,d=200;const e=function(){c===!1&&(c=!0,setTimeout(function(){a.forEach(function(a){var b=a.getBoundingClientRect();b.top<=window.innerHeight&&b.bottom>0&&a.classList.remove("lazy-hidden")}),b.forEach(function(a){var b=a.getBoundingClientRect(),c=a.getAttribute("data-src");b.top<=window.innerHeight&&b.bottom>0&&Boolean(c)&&(a.setAttribute("src",c),a.removeAttribute("data-src"))}),0===a.length&&0===b.length&&(document.removeEventListener("scroll",e),window.removeEventListener("resize",e),window.removeEventListener("orientationchange",e)),c=!1},d))};e(),d=200,document.addEventListener("scroll",e),window.addEventListener("resize",e),window.addEventListener("orientationchange",e)});</script>
       <style>.lazy-hidden,.lazy-hidden>.widget-content,.lazy-hidden>.container, .lazy-hidden>.widget-content>.lp-show-image{background-image:none!important}</style>
       <link rel="stylesheet" media="none" onload="if(media!='all')media='all'" href="https://static.ladipage.net/source/animate.min.css?v=160318">
-      <script type="text/javascript" async src="https://static.ladipage.net/source/ladipage.lib.3.js?v=0111022019"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-130479717-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag('config','UA-130479717-1');gtag('config','AW-981295879');</script><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','340859390048755');fbq('track','PageView');fbq('track','ViewContent');</script> 
+      <script type="text/javascript" async src="https://static.ladipage.net/source/ladipage.lib.3.js?v=0111022019"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130479717-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag('config','UA-130479717-1');gtag('config','AW-981295879');</script><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','340859390048755');fbq('track','PageView');fbq('track','ViewContent');</script> 
       <noscript><img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=340859390048755&ev=PageView&noscript=1" /></noscript>
+      <?php wp_head() ?>
 </head>
 
 <body>
@@ -46,7 +36,7 @@
   ?>
 
     <div class="ladi-wraper-page" lp-tk="{&quot;idgAny&quot;:&quot;true&quot;,&quot;pixel&quot;:&quot;true&quot;,&quot;idgAds&quot;:&quot;true&quot;}">
-        <div id="SECTION100" class="widget-section ladi-drop lazy-hidden ui-droppable screenS" lp-type="widget_section" lp-widget="widget" lp-lang="SECTION" lp-display="block" lp-hashtag="canhhai198@gmail.com">
+        <div id="SECTION100" class="widget-section ladi-drop lazy-hidden ui-droppable screenS" lp-type="widget_section" lp-widget="widget" lp-lang="SECTION" lp-display="block" style="<?php if(!empty($redux_pc['images-background-opt'])){echo 'background-image:url('.$redux_pc['images-background-opt']['url'] . ')!important'; }  ?>" lp-hashtag="canhhai198@gmail.com">
             <div class="container">
                 <div id="BOX647" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-display="block">
                     <div class="widget-content">
@@ -238,10 +228,12 @@
                     <div class="widget-content">
                         <div id="GROUP949" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP866">
                             <div class="widget-content">
-                                <div id="BOX950" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP949" lp-display="block">
+                              <?php if(!empty($redux_pc['images-dungcu-opt']['url'])){ ?>
+                                <div id="BOX950" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP949" lp-display="block" style="<?php echo 'background-image: url('.$redux_pc['images-dungcu-opt']['url'] .')!important' ?>">
                                     <div class="widget-content"></div>
                                     <div class="ladi-widget-overlay"></div>
                                 </div>
+                              <?php } ?>
                                 <div id="BOX951" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP949" lp-display="block">
                                     <div class="widget-content">
                                         <div id="HEADLINE952" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-display="block">
@@ -729,6 +721,7 @@
             <div class="ladi-widget-overlay"></div>
         </div>
     </div>
+    <?php wp_footer() ?>
 </body>
 
 </html>

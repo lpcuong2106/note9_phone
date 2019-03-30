@@ -143,3 +143,53 @@ Stack trace:
 
 2019-03-30T19:39:15+07:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 642
 
+2019-03-30T20:21:02+07:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 49
+
+2019-03-30T13:30:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\DocumentRoot\wp-includes\class-phpmailer.php on line 28
+
+2019-03-30T20:42:14+07:00 CRITICAL syntax error, unexpected '$redux_pc' (T_VARIABLE), expecting ',' or ';' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 242
+
+2019-03-30T21:55:44+07:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T21:59:59+07:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T22:00:02+07:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T22:00:04+07:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T22:10:31+07:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\DocumentRoot\wp-admin\includes\class-wp-filesystem-direct.php on line 73
+
+2019-03-30T22:11:13+07:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\DocumentRoot\wp-admin\includes\class-wp-filesystem-direct.php on line 73
+

@@ -131,7 +131,7 @@ div.wpcf7-response-output {
 /* BOX COUNT TIME */
 @media (min-width: 768px) {
     .box-infomation-cout-time {
-        left: 337.156px !important;
+        left: 202.6563px!important;
     }
 }
 
@@ -214,5 +214,20 @@ div.wpcf7-response-output {
     #BUTTON1240 {
         top: 336.754px !important;
         left: 2.1522px !important;
+    }
+}
+#IMAGE1269 .widget-content:first-child .lp-show-image:first-child,#IMAGE1270 .widget-content:first-child .lp-show-image:first-child,#SECTION100{
+    background-image: none;
+}
+#BOX950 > .widget-content{
+    background-image: none;
+    background-color:white;
+}
+@media (min-width: 768px){
+    #ITEM_FORM1222 {
+        width: 753.8125px !important;
+    }
+    #ITEM_FORM1199 {
+       width: 448.0823669433594px !important;
     }
 }
