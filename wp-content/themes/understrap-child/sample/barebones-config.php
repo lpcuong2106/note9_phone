@@ -289,7 +289,7 @@
                     'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
                 )
             ),
-             array(
+            array(
                 'id'       => 'phut-opt',
                 'type'     => 'text',
                 'title'    => __( 'phut', 'note9' ),
@@ -298,7 +298,7 @@
                     'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
                 )
             ),
-              array(
+            array(
                 'id'       => 'giay-opt',
                 'type'     => 'text',
                 'title'    => __( 'giay', 'note9' ),
@@ -314,6 +314,22 @@
                 'subtitle'    => __('No validation can be done on this field type', 'redux-framework-demo'),
                 'desc'        => __('This is the description field, again good for additional info.', 'redux-framework-demo'),
                 'placeholder' => 'Click to enter a date'
+            ),
+            array(
+                    'id'=>'opt-textFooter',
+                    'type' => 'textarea',
+                    'title' => __('Copyright Footer', 'redux-framework-demo'), 
+                    'subtitle' => __('Custom HTML Allowed (wp_kses)', 'redux-framework-demo'),
+                    'validate' => 'html_custom',
+                    'allowed_html' => array(
+                        'a' => array(
+                            'href' => array(),
+                            'title' => array()
+                        ),
+                        'br' => array(),
+                        'em' => array(),
+                        'strong' => array()
+                    ),
             ),
             array(
 

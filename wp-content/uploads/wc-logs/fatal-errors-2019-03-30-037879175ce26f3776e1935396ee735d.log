@@ -137,3 +137,9 @@ Stack trace:
 #3 {main}
   thrown in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 485
 
+2019-03-30T18:24:15+07:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php on line 12
+
+2019-03-30T19:34:44+07:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 352
+
+2019-03-30T19:39:15+07:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 642
+

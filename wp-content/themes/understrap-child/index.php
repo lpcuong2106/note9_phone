@@ -635,14 +635,11 @@
                                 <div class="line"></div>
                             </div>
                         </div>
+                        <?php if(!empty($redux_pc['opt-textFooter'])){ ?>
                         <div id="HEADLINE915" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP907" lp-display="block">
-                            <h1 class="widget-content" lp-node="h1">dienthoaithongminh.info được đăng kí bởi bộ công thương TP. HCM<br>Chuyên phân phối cung cấp các sản phẩm tốt nhất từ Samsung<br>Bản quyền © 2019 Thế Giới Di Động Thông Minh&nbsp;<br></h1> 
-                            <?php if ( is_active_sidebar( 'sidebar-footer' ) ) { ?>
-                               <ul id="sidebar">
-                                   <?php dynamic_sidebar('sidebar-footer'); ?>
-                               </ul>
-                           <?php } ?>
+                            <h1 class="widget-content" lp-node="h1"><?php echo $redux_pc['opt-textFooter']; ?></h1> 
                          </div>
+                        <?php } ?>
                     </div>
                 </div>
                 <div id="GROUP1242" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block">
