@@ -129,3 +129,7 @@ if ( !function_exists('register_sidebar_footer') ){
 }
 
 
+<<<<<<< HEAD
+=======
+/* CREATE SHORT CODE */
+>>>>>>> origin/ancao
