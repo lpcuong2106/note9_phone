@@ -197,3 +197,22 @@ div.wpcf7-response-output {
 #GROUP1242 .widget-content .wpcf7 .screen-reader-response ul li {
     display: none;
 }
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+    .wpcf7-submit {
+        top: -20px;
+    }
+    #BUTTON1206 {
+        top: 339px !important;
+        left: 1.2358px !important;
+    }
+    #BUTTON1218 {
+        top: 490px !important;
+    }
+    #BUTTON1240 {
+        top: 336.754px !important;
+        left: 2.1522px !important;
+    }
+}
