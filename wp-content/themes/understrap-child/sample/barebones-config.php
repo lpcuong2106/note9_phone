@@ -272,7 +272,17 @@
                 'hint'     => array(
                     'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
                 )
-            )
+            ),
+            array(
+                'id'       => 'number-slider-opt',
+                'type'     => 'text',
+                'title'    => __( 'Số lượng ảnh hiển thị slider', 'note9' ),
+                'subtitle' => __( 'Số lượng ảnh hiển thị slider', 'note9' ),
+                'hint'     => array(
+                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
+                )
+            ),
+            
         )
     ) );
 

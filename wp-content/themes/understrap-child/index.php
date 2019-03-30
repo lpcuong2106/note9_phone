@@ -263,7 +263,7 @@
                                 <div class="control-slider-left"></div>
                                 <div class="control-slider-right"></div>
                                 <div class="wrap-child">
-                                    <div id="ITEM-CAROUSEL1261" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
+                                    <!-- <div id="ITEM-CAROUSEL1261" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
                                         <div class="widget-content"></div>
                                         <div class="ladi-widget-overlay"></div>
                                     </div>
@@ -294,7 +294,13 @@
                                     <div id="ITEM-CAROUSEL1268" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
                                         <div class="widget-content"></div>
                                         <div class="ladi-widget-overlay"></div>
-                                    </div>
+                                    </div> -->
+                                    <?php 
+                                        if(!empty($redux_pc['number-slider-opt'])) {
+                                            $numberSlider = $redux_pc['number-slider-opt'];
+                                        }
+                                        echo do_shortcode('[SHOW-SLIDER number="'.$numberSlider.'"]');
+                                    ?>
                                 </div>
                             </div>
                         </div>
