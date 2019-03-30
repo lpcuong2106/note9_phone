@@ -31,6 +31,10 @@ function note91_settings_page() {
             <?php do_settings_sections( 'note91-settings-group' ); ?>
             <table class="form-table">
                 <tr valign="top">
+                    <th scope="row">Tên sản phẩm</th>
+                    <td><input type="text" size="80" name="note91_setting_theme[note91_name_product]" value="<?php echo $options['note91_name_product']; ?>" /></td>
+                </tr>
+                <tr valign="top">
                     <th scope="row">Màn hình</th>
                     <td><input type="text" size="80" name="note91_setting_theme[note91_man_hinh]" value="<?php echo $options['note91_man_hinh']; ?>" /></td>
                 </tr>
@@ -73,6 +77,26 @@ function note91_settings_page() {
                 <tr valign="top">
                     <th scope="row">Màu sắc</th>
                     <td><input type="text" size="80" name="note91_setting_theme[note91_mau_sac]" value="<?php echo $options['note91_mau_sac']; ?>" /></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row">Bộ sản phẩm gồm</th>
+                    <td><input type="text" size="80" name="note91_setting_theme[note91_phu_kien]" value="<?php echo $options['note91_phu_kien']; ?>" /></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row">Bảo hành</th>
+                    <td><textarea  type="text" size="80" name="note91_setting_theme[note91_bao_hanh]" ><?php if(!empty($options['note91_bao_hanh'])) {echo $options['note91_bao_hanh'];}  ?></textarea></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row">Đặc điểm nổi bật</th>
+                    <td><textarea  type="text" size="80" name="note91_setting_theme[note91_noi_bat]" ><?php if(!empty($options['note91_noi_bat'])) {echo $options['note91_noi_bat'];}  ?></textarea></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row" style="color:rgba(12,53,117,1)">Giá chưa giảm</th>
+                    <td><input type="text" size="80" name="note91_setting_theme[note91_price]" value="<?php echo $options['note91_price']; ?>" /></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row" style="color:red">Giá sản phẩm</th>
+                    <td><input type="text" size="80" name="note91_setting_theme[note91_price_sale]" value="<?php echo $options['note91_price_sale']; ?>" /></td>
                 </tr>
             </table>
             <?php submit_button(); ?>

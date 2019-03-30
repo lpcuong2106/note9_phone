@@ -166,11 +166,30 @@
                             <div class="ladi-widget-overlay"></div>
                         </div>
                         <div id="HEADLINE809" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1000" lp-display="block" lp-ani="wow pulse animated infinite">
-                            <h2 class="widget-content" lp-node="h2">2.699.000 VNĐ</h2> </div>
+                            <h2 class="widget-content" lp-node="h2">
+                              <?php
+                                    $options = get_option( 'note91_setting_theme' );
+                                    if (isset($options['note91_price_sale'])){ $note91_price_sale = $options['note91_price_sale'];}
+                                    ?>
+                              <?php if ( $note91_price_sale != "" ){ echo $note91_price_sale .'VNĐ'; }?> </h2> </div>
                         <div id="HEADLINE648" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1000" lp-display="block">
-                            <h2 class="widget-content" lp-node="h2">SAMSUNG GALAXY NOTE 9</h2> </div>
+                            <h2 class="widget-content" lp-node="h2"> 
+                              <?php
+                                            $options = get_option( 'note91_setting_theme' );
+                                            if (isset($options['note91_name_product'])){ $note91_name_product = $options['note91_name_product'];}
+                                            ?>
+                                            <?php if ( $note91_name_product != "" ){ echo $note91_name_product; } 
+                                ?>
+                                              
+                                            </h2> </div>
                         <div id="HEADLINE1131" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1000" lp-display="block">
-                            <h2 class="widget-content" lp-node="h2">&nbsp;11.550.000 VNĐ&nbsp;</h2> </div>
+                            <h2 class="widget-content" lp-node="h2"> 
+                              <?php
+                                    $options = get_option( 'note91_setting_theme' );
+                                    if (isset($options['note91_price'])){ $note91_price = $options['note91_price'];}
+                                    ?>
+                              <?php if ( $note91_price != "" ){ echo '&nbsp;'.$note91_price .'VNĐ&nbsp;'; }?>
+                            </h2> </div>
                         <div id="CAROUSEL1256" class="widget-element ladi-drop ladi-carousel" data-carousel="{&quot;autoplay&quot;:true,&quot;delay&quot;:5000}" lp-type="slider" lp-lang="CAROUSEL" lp-delay="5000" lp-autoplay="1" lp-group="GROUP1000" lp-display="block">
                             <div class="widget-content">
                                 <div class="control-slider-left"></div>
@@ -236,7 +255,13 @@
                                             <div class="ladi-widget-overlay"></div>
                                         </div>
                                         <div id="PARAGRAPH955" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-group="GROUP953" lp-display="block">
-                                            <p class="widget-content" lp-node="p">Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp, Cây lấy sim, Bút cảm ứng, Ốp lưng, Adapter chuyển USB.</p>
+                                            <p class="widget-content" lp-node="p">
+                                            <?php
+                                            $options = get_option( 'note91_setting_theme' );
+                                            if (isset($options['note91_phu_kien'])){ $note91_phu_kien = $options['note91_phu_kien'];}
+                                            ?>
+                                            <?php if ( $note91_phu_kien != "" ){ echo $note91_phu_kien; } ?>
+                                         </p>
                                         </div>
                                     </div>
                                 </div>
@@ -260,10 +285,14 @@
                                     <div class="ladi-widget-overlay"></div>
                                 </div>
                                 <div id="PARAGRAPH865" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-group="GROUP863" lp-display="block">
-                                    <p class="widget-content" lp-node="p">1 đổi 1 nếu lỗi sản xuất trong 3 ngày đầu nhận máy.
-                                        <br>Bảo hành tất cả sản phẩm 12 tháng.
-                                        <br>Giao hàng thu tiền tận nhà.
-                                        <br>Kiểm tra hàng rồi thanh toán.</p>
+                                    <p class="widget-content" lp-node="p">
+                                      <?php
+                                            $options = get_option( 'note91_setting_theme' );
+                                            if (isset($options['note91_bao_hanh'])){ $note91_bao_hanh = $options['note91_bao_hanh'];}
+                                            ?>
+                                            <?php if ( $note91_bao_hanh != "" ){ echo $note91_bao_hanh; } 
+                                      ?>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -299,9 +328,14 @@
                                     <div class="ladi-widget-overlay"></div>
                                 </div>
                                 <div id="PARAGRAPH1098" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-group="GROUP1096" lp-display="block">
-                                    <p class="widget-content" lp-node="p">Mở khóa bằng nhận diện khuôn mặt, cảm biến vân tay, móng mắt.
-                                        <br>Tối giản cạnh viền trên dưới để mang lại cho bạn một trải nghiệm tuyệt vời.
-                                        <br>Khả năng đo nhịp tim</p>
+                                    <p class="widget-content" lp-node="p">
+                                       <?php
+                                            $options = get_option( 'note91_setting_theme' );
+                                            if (isset($options['note91_noi_bat'])){ $note91_noi_bat = $options['note91_noi_bat'];}
+                                            ?>
+                                            <?php if ( $note91_noi_bat != "" ){ echo $note91_noi_bat; } 
+                                       ?>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -608,7 +642,7 @@
                     <div class="widget-content">
                         <div id="HEADLINE874" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1242" lp-display="block">
                             <h2 class="widget-content" lp-node="h2">NHẬP THÔNG TIN ĐỂ ĐƯỢC NHÂN VIÊN TƯ VẤN VÀ ĐẶT HÀNG VỚI ƯU ĐÃI LỚN NGAY HÔM NAY</h2> </div>
-                        <
+                        
                             <?php echo do_shortcode('[contact-form-7 id="7" title="Form Giảm Giá 3"]'); ?>
                         </div>
                         <!-- <div id="BUTTON1218" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1208" lp-group="GROUP1242" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span>

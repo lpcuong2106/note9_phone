@@ -122,3 +122,7 @@ Stack trace:
 
 2019-03-30T05:21:37+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
 
+2019-03-30T15:22:45+07:00 CRITICAL syntax error, unexpected ':' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\options\options-form1.php on line 83
+
+2019-03-30T15:22:59+07:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\options\options-form1.php on line 83
+
