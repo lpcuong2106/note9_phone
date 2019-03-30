@@ -35,8 +35,6 @@
 </head>
 
 <body>
-  <div class="test">cuong123</div>
-  <div class="ancao">andep trai</div>
     <div class="ladi-wraper-page" lp-tk="{&quot;idgAny&quot;:&quot;true&quot;,&quot;pixel&quot;:&quot;true&quot;,&quot;idgAds&quot;:&quot;true&quot;}">
         <div id="SECTION100" class="widget-section ladi-drop lazy-hidden ui-droppable screenS" lp-type="widget_section" lp-widget="widget" lp-lang="SECTION" lp-display="block" lp-hashtag="canhhai198@gmail.com">
             <div class="container">
@@ -91,6 +89,7 @@
                         </div>
                         <div id="GROUP1105" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block">
                             <div class="widget-content">
+                              <?php if(!empty($redux_pc['time-opt'])){ ?>
                                 <div id="SHAPE1108" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1105" lp-display="block">
                                     <div class="widget-content">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,87,34,1)">
@@ -99,7 +98,10 @@
                                     </div>
                                 </div>
                                 <div id="HEADLINE1109" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1105" lp-display="block">
-                                    <h1 class="widget-content" lp-node="h1">T2-CN 09:00-15:00&nbsp;</h1> </div>
+                                    <h1 class="widget-content" lp-node="h1"><?php echo $redux_pc['time-opt'] ?>&nbsp;</h1> 
+                                </div>
+                              <?php } ?>
+                              <?php if(!empty($redux_pc['support_order-opt'])){ ?>
                                 <div id="SHAPE1110" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1105" lp-display="block">
                                     <div class="widget-content">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,87,34,1)">
@@ -108,9 +110,11 @@
                                     </div>
                                 </div>
                                 <div id="HEADLINE1111" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1105" lp-display="block">
-                                    <h1 class="widget-content" lp-node="h1">+(84) 797 764 155</h1> </div>
+                                    <h1 class="widget-content" lp-node="h1"><?php echo $redux_pc['support_order-opt'] ?></h1> </div>
+                              <?php } ?>
+                              <?php if(!empty($redux_pc['address-opt'])){ ?>
                                 <div id="HEADLINE1107" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1105" lp-display="block">
-                                    <h1 class="widget-content" lp-node="h1">Số 88, Tổ 9, Đông Anh, Hà Nội</h1> </div>
+                                    <h1 class="widget-content" lp-node="h1"><?php echo $redux_pc['address-opt'] ?></h1> </div>
                                 <div id="SHAPE1106" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1105" lp-display="block">
                                     <div class="widget-content">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(255,87,34,1)">
@@ -118,6 +122,7 @@
                                         </svg>
                                     </div>
                                 </div>
+                              <?php } ?>
                             </div>
                         </div>
                         <div id="SHAPE1251" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-display="block" lp-ani="wow fadeInDown animated infinite">
@@ -830,6 +835,7 @@
                     <div class="widget-content">
                         <div id="HEADLINE1272" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1271" lp-display="block">
                             <h2 class="widget-content" lp-node="h2">THẾ GIỚI DI ĐỘNG THÔNG MINH</h2> </div>
+                    <?php if(!empty($redux_pc['address-opt'])){ ?>
                         <div id="GROUP1273" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1271">
                             <div class="widget-content">
                                 <div id="SHAPE1274" class="widget-element widget-snap" lp-type="shape" lp-lang="SHAPE" lp-group="GROUP1273" lp-display="block">
@@ -842,9 +848,10 @@
                                 <div id="HEADLINE1275" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1273" lp-display="block">
                                     <h1 class="widget-content" lp-node="h1">Địa Chỉ Cửa Hàng</h1> </div>
                                 <div id="HEADLINE1276" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-group="GROUP1273" lp-display="block">
-                                    <h1 class="widget-content" lp-node="h1">Số 88, Tổ 9, Đông Anh, Hà Nội</h1> </div>
+                                    <h1 class="widget-content" lp-node="h1"><?php echo $redux_pc['address-opt'] ?></h1> </div>
                             </div>
                         </div>
+                    <?php } ?>
                     <?php if(!empty($redux_pc['support_order-opt'])){ ?>
                         <div id="GROUP1277" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-group="GROUP1271">
                             <div class="widget-content">
