@@ -1,0 +1,66 @@
+2019-03-30T00:26:19+00:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T01:46:07+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T01:46:48+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T01:47:18+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T01:47:19+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T01:47:20+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T01:47:20+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T01:47:20+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T01:47:20+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T01:47:22+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T01:51:40+00:00 CRITICAL syntax error, unexpected ''hour-min'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\sample\barebones-config.php on line 303
+
+2019-03-30T02:03:48+00:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
+Stack trace:
+#0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(82): KUSANAGI_Security_Check->check_permission_wp_config()
+#2 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\template.php(1306): KUSANAGI_Security_Check->kusanagi_security_information('', Array)
+#3 C:\xampp\htdocs\DocumentRoot\wp-admin\includes\dashboard.php(232): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#4 C:\xampp\htdocs\DocumentRoot\wp-admin\index.php(148): wp_dashboard()
+#5 {main}
+  thrown in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
+
+2019-03-30T10:01:58+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 45
+
+2019-03-30T10:02:28+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 45
+
+2019-03-30T10:02:31+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 45
+
+2019-03-30T10:02:48+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 45
+
+2019-03-30T10:02:50+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 45
+
+2019-03-30T10:02:50+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 45
+
+2019-03-30T10:02:50+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 45
+
+2019-03-30T03:04:25+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 44
+
+2019-03-30T03:05:09+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 44
+
+2019-03-30T03:05:19+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 44
+
+2019-03-30T03:14:30+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 48
+
+2019-03-30T10:55:33+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 44
+
+2019-03-30T10:56:04+07:00 CRITICAL Object of class DateTime could not be converted to string in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\index.php on line 45
+

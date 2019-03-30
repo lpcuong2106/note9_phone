@@ -1,8 +1,7 @@
 <?php
 // require_once dirname( __FILE__ ) . '/class-tgm-plugin-activation.php';
-
- 
- require_once (dirname(__FILE__) . '/sample/barebones-config.php');
+date_default_timezone_set("Asia/Bangkok");
+require_once (dirname(__FILE__) . '/sample/barebones-config.php');
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
@@ -128,8 +127,21 @@ if ( !function_exists('register_sidebar_footer') ){
     add_action( 'widgets_init', 'register_sidebar_footer' );
 }
 
+if(!function_exists('count_time')){
+    function count_time(){
+        
+        global $redux_pc;
 
-<<<<<<< HEAD
-=======
-/* CREATE SHORT CODE */
->>>>>>> origin/ancao
+        $ExpireDate = strtotime($redux_pc['opt-date'])-7*3600; // Get expire date
+        //$curent = date('Y-m-d H:i:s', $ExpireDate);
+        $h = (int)$redux_pc['gio-opt']*60*60; // Get expire hours
+        $i = (int)$redux_pc['phut-opt']*60;// Get expire minutes
+        $s = (int)$redux_pc['giay-opt']; // Get expire seconds
+        $sumtime = $ExpireDate + $h + $i + $s ; //  add time
+        $timestampDate = (string)date('Y-m-d', $sumtime);
+        $timestampTime = (string)date('H:i:s', $sumtime);
+        $conversuyc = $timestampDate . "T". $timestampTime;
+        return $conversuyc;
+    }
+    add_shortcode('COUNT_TIME', 'count_time');
+}

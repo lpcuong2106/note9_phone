@@ -272,7 +272,97 @@
                 'hint'     => array(
                     'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
                 )
-            )
+            ),
+           
+            array(
+                'id'       => 'gio-opt',
+                'type'     => 'text',
+                'title'    => __( 'gio', 'note9' ),
+                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
+                'hint'     => array(
+                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
+                )
+            ),
+             array(
+                'id'       => 'phut-opt',
+                'type'     => 'text',
+                'title'    => __( 'phut', 'note9' ),
+                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
+                'hint'     => array(
+                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
+                )
+            ),
+              array(
+                'id'       => 'giay-opt',
+                'type'     => 'text',
+                'title'    => __( 'giay', 'note9' ),
+                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
+                'hint'     => array(
+                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
+                )
+            ),
+            array(
+                'id'          => 'opt-date',
+                'type'        => 'date',
+                'title'       => __('Date Option', 'redux-framework-demo'), 
+                'subtitle'    => __('No validation can be done on this field type', 'redux-framework-demo'),
+                'desc'        => __('This is the description field, again good for additional info.', 'redux-framework-demo'),
+                'placeholder' => 'Click to enter a date'
+            ),
+         
+            array (
+                'id'            => 'opt-date-time',
+                'type'          => 'datetime',
+                'title'         => 'Date/Time Picker',
+                'subtitle'      => 'Date/Time Picker extension',
+                'split'         => false,
+                'separator'     => ' @ ',
+             
+                // Optional timezone list
+                'timezone-list' => array(
+                    array('value' => -300, 'label' => 'Eastern'),
+                    array('value' => -360, 'label' => 'Central'),
+                    array('value' => -420, 'label' => 'Moutain'),
+                    array('value' => -480, 'label' => 'Pacific')
+                ),
+             
+                // Alternative method to display time zone data
+                'timezone-list' => array(
+                    array('value' => 'EST', 'label' => 'Eastern'),
+                    array('value' => 'CST', 'label' => 'Central'),
+                    array('value' => 'GMT', 'label' => 'Moutain'),
+                    array('value' => 'PST', 'label' => 'Pacific')
+                ),
+             
+                'timezone'      => '-300',
+             
+                // Optional Min/Max hour values
+                'hour-min'      => 8,
+                'hour-max'      => 16,
+             
+                // Optional Min/Max minute values
+                'minute-min'    => 20,
+                'minute-max'    => 40,
+             
+                // Optional Min/Max date values.
+                // Creates a selectable date range between the current date 
+                // and 30 days from the current date.
+                'date-min'      => 0,
+                'date-max'      => 30,
+             
+                // Alternative Min/Max date values.
+                // Selects a selectable date range between 10/5/2014 to 11/15/2014
+                // 'date-min'      => array(
+                //     'month' => 10,
+                //     'day'   => 5,
+                //     'year'  => 2014
+                // ),
+                // 'date-max'      =>  array(
+                //     'month' => 11,
+                //     'day'   => 15,
+                //     'year'  => 2014
+                // )
+            ),
         )
     ) );
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<?php date_default_timezone_set("Asia/Bangkok"); ?>
 <head lang="en">
 <meta charset="UTF-8">
       <title class="title-site" lp-id="5c1dfd966efb27661e81fa29">Điện Thoại Thông Minh Giá Rẻ Note 9</title>
@@ -25,6 +25,11 @@
       <link rel="preconnect" href="https://api.ladipage.vn/" crossorigin>
       <link type="text/css" rel="stylesheet" media="screen, print" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:300,400,700|Montserrat:300,400,600,700|Bungee&amp;subset=latin-ext,vietnamese">
       </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+      <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/jquery.countdown.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
       <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
       <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/common.css">
       <script>document.addEventListener("DOMContentLoaded",function(){var a=[].slice.call(document.querySelectorAll(".lazy-hidden")),b=[].slice.call(document.querySelectorAll("iframe.widget-content")),c=!1,d=200;const e=function(){c===!1&&(c=!0,setTimeout(function(){a.forEach(function(a){var b=a.getBoundingClientRect();b.top<=window.innerHeight&&b.bottom>0&&a.classList.remove("lazy-hidden")}),b.forEach(function(a){var b=a.getBoundingClientRect(),c=a.getAttribute("data-src");b.top<=window.innerHeight&&b.bottom>0&&Boolean(c)&&(a.setAttribute("src",c),a.removeAttribute("data-src"))}),0===a.length&&0===b.length&&(document.removeEventListener("scroll",e),window.removeEventListener("resize",e),window.removeEventListener("orientationchange",e)),c=!1},d))};e(),d=200,document.addEventListener("scroll",e),window.addEventListener("resize",e),window.addEventListener("orientationchange",e)});</script>
@@ -35,6 +40,10 @@
 </head>
 
 <body>
+  <?php
+    global $redux_pc;
+  ?>
+
     <div class="ladi-wraper-page" lp-tk="{&quot;idgAny&quot;:&quot;true&quot;,&quot;pixel&quot;:&quot;true&quot;,&quot;idgAds&quot;:&quot;true&quot;}">
         <div id="SECTION100" class="widget-section ladi-drop lazy-hidden ui-droppable screenS" lp-type="widget_section" lp-widget="widget" lp-lang="SECTION" lp-display="block" lp-hashtag="canhhai198@gmail.com">
             <div class="container">
@@ -646,7 +655,7 @@
                             <input class="widget-content" type="text" placeholder="Phường / Xã" name="lpinput2" lp-label="Ô nhập tùy chọn 2" lp-name-id="phuongxa" required="required">
                         </div>
                     </form>
-                    <!-- <?php echo do_shortcode('[contact-form-7 id="5" title="Giảm giá"]'); ?> -->
+                    <?php echo do_shortcode('[contact-form-7 id="5" title="Giảm giá"]'); ?> 
                 </div>
                 <div id="BUTTON1240" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1230" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span>
                     </span>
@@ -850,7 +859,8 @@
                                     </div>
                                     <div class="ladi-widget-overlay"></div>
                                 </div>
-                                <div id="COUNTDOWN839" class="widget-element widget-snap" lp-type="countdown" lp-lang="COUNTDOWN" lp-endtime="2018-12-10T17:00:00.000Z" lp-endtimetype="time" lp-repeatday="2" lp-group="GROUP980" lp-display="block">
+
+                                <div id="COUNTDOWN839" class="widget-element widget-snap" lp-type="countdown" lp-lang="COUNTDOWN" lp-endtime="<?php echo do_shortcode('[COUNT_TIME]').".000Z"?>" lp-endtimetype="time" lp-repeatday="2" lp-group="GROUP980" lp-display="block">
                                     <div class="widget-content">
                                         <div><span>0</span></div>
                                         <div><span>0</span></div>
@@ -859,11 +869,14 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <div id="BUTTON869" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-group="GROUP1255" lp-display="table" lp-ani="wow bounce animated infinite"><span class="widget-content">THỜI GIAN<br>CÒN LẠI<br></span> </div>
+
                     </div>
                 </div>
             </div>
+
             <div class="ladi-widget-overlay"></div>
         </div>
     </div>
