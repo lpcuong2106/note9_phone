@@ -282,7 +282,22 @@
                     'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
                 )
             ),
-            
+            array(
+
+                'id'       => 'images-form1-opt',
+                'type'     => 'media',
+                'title'    => __( 'Hình ảnh thông số kỹ thuật Form 1', 'note9' ),
+                'compiler' => 'true',
+                'desc'     => __( 'Cho phép dùng đuôi: jpg, png, gif', 'note9' ),
+            ),
+            array(
+
+                'id'       => 'images-form2-opt',
+                'type'     => 'media',
+                'title'    => __( 'Hình ảnh thông số kỹ thuật Form 2', 'note9' ),
+                'compiler' => 'true',
+                'desc'     => __( 'Cho phép dùng đuôi: jpg, png, gif', 'note9' ),
+            ),
         )
     ) );
 

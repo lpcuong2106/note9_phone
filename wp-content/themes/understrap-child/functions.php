@@ -3,6 +3,8 @@
 
  
  require_once (dirname(__FILE__) . '/sample/barebones-config.php');
+ require_once (dirname(__FILE__) . '/options/options-form1.php');
+ require_once (dirname(__FILE__) . '/options/options-form2.php');
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.

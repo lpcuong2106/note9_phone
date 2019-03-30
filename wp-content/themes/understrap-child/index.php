@@ -263,38 +263,6 @@
                                 <div class="control-slider-left"></div>
                                 <div class="control-slider-right"></div>
                                 <div class="wrap-child">
-                                    <!-- <div id="ITEM-CAROUSEL1261" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
-                                        <div class="ladi-widget-overlay"></div>
-                                    </div>
-                                    <div id="ITEM-CAROUSEL1262" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
-                                        <div class="ladi-widget-overlay"></div>
-                                    </div>
-                                    <div id="ITEM-CAROUSEL1263" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
-                                        <div class="ladi-widget-overlay"></div>
-                                    </div>
-                                    <div id="ITEM-CAROUSEL1264" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
-                                        <div class="ladi-widget-overlay"></div>
-                                    </div>
-                                    <div id="ITEM-CAROUSEL1265" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
-                                        <div class="ladi-widget-overlay"></div>
-                                    </div>
-                                    <div id="ITEM-CAROUSEL1266" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
-                                        <div class="ladi-widget-overlay"></div>
-                                    </div>
-                                    <div id="ITEM-CAROUSEL1267" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
-                                        <div class="ladi-widget-overlay"></div>
-                                    </div>
-                                    <div id="ITEM-CAROUSEL1268" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
-                                        <div class="ladi-widget-overlay"></div>
-                                    </div> -->
                                     <?php 
                                         if(!empty($redux_pc['number-slider-opt'])) {
                                             $numberSlider = $redux_pc['number-slider-opt'];
@@ -358,17 +326,33 @@
                         <div id="BOX746" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP948" lp-display="block">
                             <div class="widget-content">
                                 <div id="PARAGRAPH747" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-display="block">
-                                    <p class="widget-content" lp-node="p">Super AMOLED, 6.4", Quad HD+ (2K+)
-                                        <br>Android 8.1 (Oreo)
-                                        <br>2 camera 12 MP
-                                        <br>8 MP
-                                        <br>Exynos 9810 8 nhân 64 bit
-                                        <br>6 GB
-                                        <br>128 GB
-                                        <br>MicroSD, hỗ trợ tối đa 512 GB
-                                        <br>2 SIM Nano (SIM 2 chung khe thẻ nhớ)
-                                        <br>4000 mAh, có sạc nhanh
-                                        <br>Xanh Dương</p>
+                                    <p class="widget-content" lp-node="p">
+                                        <?php
+                                            $options = get_option( 'note91_setting_theme' );
+                                            if (isset($options['note91_man_hinh'])){ $note91_man_hinh = $options['note91_man_hinh'];}
+                                            if (isset($options['note91_he_dieu_hanh'])){ $note91_he_dieu_hanh = $options['note91_he_dieu_hanh'];}
+                                            if (isset($options['note91_camera_sau'])){ $note91_camera_sau = $options['note91_camera_sau'];}
+                                            if (isset($options['note91_camera_truoc'])){ $note91_camera_truoc = $options['note91_camera_truoc'];}
+                                            if (isset($options['note91_cpu'])){ $note91_cpu = $options['note91_cpu'];}
+                                            if (isset($options['note91_ram'])){ $note91_ram = $options['note91_ram'];}
+                                            if (isset($options['note91_bo_nho_trong'])){ $note91_bo_nho_trong = $options['note91_bo_nho_trong'];}
+                                            if (isset($options['note91_the_nho'])){ $note91_the_nho = $options['note91_the_nho'];}
+                                            if (isset($options['note91_the_sim'])){ $note91_the_sim = $options['note91_the_sim'];}
+                                            if (isset($options['note91_dung_luong_pin'])){ $note91_dung_luong_pin = $options['note91_dung_luong_pin'];}
+                                            if (isset($options['note91_mau_sac'])){ $note91_mau_sac = $options['note91_mau_sac'];}
+                                        ?>	
+                                        <?php if ( $note91_man_hinh != "" ){ echo $note91_man_hinh; } ?><br>
+                                        <?php if ( $note91_he_dieu_hanh != "" ){ echo $note91_he_dieu_hanh; } ?><br>
+                                        <?php if ( $note91_camera_sau != "" ){ echo $note91_camera_sau; } ?><br>
+                                        <?php if ( $note91_camera_truoc != "" ){ echo $note91_camera_truoc; } ?><br>
+                                        <?php if ( $note91_cpu != "" ){ echo $note91_cpu; } ?><br>
+                                        <?php if ( $note91_ram != "" ){ echo $note91_ram; } ?><br>
+                                        <?php if ( $note91_bo_nho_trong != "" ){ echo $note91_bo_nho_trong; } ?><br>
+                                        <?php if ( $note91_the_nho != "" ){ echo $note91_the_nho; } ?><br>
+                                        <?php if ( $note91_the_sim != "" ){ echo $note91_the_sim; } ?><br>
+                                        <?php if ( $note91_dung_luong_pin != "" ){ echo $note91_dung_luong_pin; } ?><br>
+                                        <?php if ( $note91_mau_sac != "" ){ echo $note91_mau_sac; } ?>
+                                    </p>
                                 </div>
                             </div>
                             <div class="ladi-widget-overlay"></div>
@@ -382,30 +366,60 @@
                         <div id="HEADLINE735" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-display="block">
                             <h1 class="widget-content" lp-node="h1">Màn hình:<br color="" style="color: rgb(0, 0, 0);">Hệ điều hành:<br color="" style="color: rgb(0, 0, 0);">Camera sau:<br color="" style="color: rgb(0, 0, 0);">Camera trước:<br color="" style="color: rgb(0, 0, 0);">CPU:<br color="" style="color: rgb(0, 0, 0);">RAM:<br color="" style="color: rgb(0, 0, 0);">Bộ nhớ trong:<br color="" style="color: rgb(0, 0, 0);">Thẻ nhớ:<br color="" style="color: rgb(0, 0, 0);">Thẻ SIM:<br color="" style="color: rgb(0, 0, 0);">Dung lượng pin:<br>Màu sắc:</h1> </div>
                         <div id="PARAGRAPH727" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-display="block">
-                            <p class="widget-content" lp-node="p">Super AMOLED, 6.4", Quad HD+ (2K+)
-                                <br>Android 8.1 (Oreo)
-                                <br>2 camera 12 MP
-                                <br>8 MP
-                                <br>Exynos 9810 8 nhân 64 bit
-                                <br>6 GB
-                                <br>128 GB
-                                <br>MicroSD, hỗ trợ tối đa 512 GB
-                                <br>2 SIM Nano (SIM 2 chung khe thẻ nhớ)
-                                <br>4000 mAh, có sạc nhanh
-                                <br>Đen</p>
+                            <p class="widget-content" lp-node="p">
+                                <?php
+                                    $options = get_option( 'note92_setting_theme' );
+                                    if (isset($options['note92_man_hinh'])){ $note92_man_hinh = $options['note92_man_hinh'];}
+                                    if (isset($options['note92_he_dieu_hanh'])){ $note92_he_dieu_hanh = $options['note92_he_dieu_hanh'];}
+                                    if (isset($options['note92_camera_sau'])){ $note92_camera_sau = $options['note92_camera_sau'];}
+                                    if (isset($options['note92_camera_truoc'])){ $note92_camera_truoc = $options['note92_camera_truoc'];}
+                                    if (isset($options['note92_cpu'])){ $note92_cpu = $options['note92_cpu'];}
+                                    if (isset($options['note92_ram'])){ $note92_ram = $options['note92_ram'];}
+                                    if (isset($options['note92_bo_nho_trong'])){ $note92_bo_nho_trong = $options['note92_bo_nho_trong'];}
+                                    if (isset($options['note92_the_nho'])){ $note92_the_nho = $options['note92_the_nho'];}
+                                    if (isset($options['note92_the_sim'])){ $note92_the_sim = $options['note92_the_sim'];}
+                                    if (isset($options['note92_dung_luong_pin'])){ $note92_dung_luong_pin = $options['note92_dung_luong_pin'];}
+                                    if (isset($options['note92_mau_sac'])){ $note92_mau_sac = $options['note92_mau_sac'];}
+                                ?>	
+                                <?php if ( $note92_man_hinh != "" ){ echo $note92_man_hinh; } ?><br>
+                                <?php if ( $note92_he_dieu_hanh != "" ){ echo $note92_he_dieu_hanh; } ?><br>
+                                <?php if ( $note92_camera_sau != "" ){ echo $note92_camera_sau; } ?><br>
+                                <?php if ( $note92_camera_truoc != "" ){ echo $note92_camera_truoc; } ?><br>
+                                <?php if ( $note92_cpu != "" ){ echo $note92_cpu; } ?><br>
+                                <?php if ( $note92_ram != "" ){ echo $note92_ram; } ?><br>
+                                <?php if ( $note92_bo_nho_trong != "" ){ echo $note92_bo_nho_trong; } ?><br>
+                                <?php if ( $note92_the_nho != "" ){ echo $note92_the_nho; } ?><br>
+                                <?php if ( $note92_the_sim != "" ){ echo $note92_the_sim; } ?><br>
+                                <?php if ( $note92_dung_luong_pin != "" ){ echo $note92_dung_luong_pin; } ?><br>
+                                <?php if ( $note92_mau_sac != "" ){ echo $note92_mau_sac; } ?>
+                            </p>
                         </div>
                     </div>
                     <div class="ladi-widget-overlay"></div>
                 </div>
                 <div id="IMAGE1269" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="image" lp-lang="IMAGE" lp-display="block" lp-action-link="POPUP930" lp-action-type="popup" lp-target="_top" href="">
                     <div class="widget-content">
-                        <div class="lp-show-image" alt="https://static.ladipage.net/5bfcbd92bb86d565230107c6/1-1545016393.png"></div>
+                        <div class="lp-show-image">
+                            <?php 
+                                if(!empty($redux_pc['images-form1-opt']['url'])){ $imagesFormFirst = $redux_pc['images-form1-opt']['url']; }
+                                $xhtml = '';
+                                $xhtml.= '<img src="'.$imagesFormFirst.'">';
+                                echo $xhtml;        
+                            ?>
+                        </div>
                     </div>
                     <div class="ladi-widget-overlay"></div>
                 </div>
                 <div id="IMAGE1270" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="image" lp-lang="IMAGE" lp-display="block" lp-action-link="POPUP930" lp-action-type="popup" lp-target="" href="">
                     <div class="widget-content">
-                        <div class="lp-show-image" alt="https://static.ladipage.net/5bfcbd92bb86d565230107c6/2-1545016393.png"></div>
+                        <div class="lp-show-image">
+                            <?php 
+                                if(!empty($redux_pc['images-form2-opt']['url'])){ $imagesFormLast = $redux_pc['images-form2-opt']['url']; }
+                                $xhtml = '';
+                                $xhtml.= '<img src="'.$imagesFormLast.'">';
+                                echo $xhtml;        
+                            ?>
+                        </div>
                     </div>
                     <div class="ladi-widget-overlay"></div>
                 </div>
@@ -414,119 +428,6 @@
         </div>
         <div id="SECTION1013" class="widget-section ladi-drop lazy-hidden ui-droppable screenS" lp-type="widget_section" lp-widget="widget" lp-lang="SECTION" lp-display="block">
             <div class="container">
-                <!-- <div id="FORM1219" class="widget-element widget-snap" lp-type="contact_form" lp-lang="FORM" lp-vt-item="[{&quot;id&quot;:&quot;ITEM_FORM1220&quot;,&quot;vt&quot;:0,&quot;name&quot;:&quot;name&quot;,&quot;valueName&quot;:&quot;name&quot;,&quot;$$hashKey&quot;:&quot;object:2871&quot;},{&quot;id&quot;:&quot;ITEM_FORM1221&quot;,&quot;vt&quot;:1,&quot;name&quot;:&quot;phone&quot;,&quot;valueName&quot;:&quot;phone&quot;,&quot;$$hashKey&quot;:&quot;object:2872&quot;},{&quot;id&quot;:&quot;ITEM_FORM1222&quot;,&quot;vt&quot;:2,&quot;name&quot;:&quot;street&quot;,&quot;valueName&quot;:&quot;street&quot;,&quot;$$hashKey&quot;:&quot;object:2873&quot;},{&quot;id&quot;:&quot;ITEM_FORM1226&quot;,&quot;vt&quot;:4,&quot;name&quot;:&quot;lpinput1&quot;,&quot;valueName&quot;:&quot;lpinput1&quot;,&quot;$$hashKey&quot;:&quot;object:2874&quot;},{&quot;id&quot;:&quot;ITEM_FORM1228&quot;,&quot;vt&quot;:3,&quot;name&quot;:&quot;lpinput2&quot;,&quot;valueName&quot;:&quot;lpinput2&quot;,&quot;$$hashKey&quot;:&quot;object:2875&quot;},{&quot;id&quot;:&quot;ITEM_FORM1227&quot;,&quot;vt&quot;:5,&quot;name&quot;:&quot;select4&quot;,&quot;valueName&quot;:&quot;select4&quot;,&quot;$$hashKey&quot;:&quot;object:2876&quot;},{&quot;id&quot;:&quot;ITEM_FORM1223&quot;,&quot;vt&quot;:6,&quot;name&quot;:&quot;select3&quot;,&quot;valueName&quot;:&quot;select3&quot;,&quot;$$hashKey&quot;:&quot;object:2877&quot;},{&quot;id&quot;:&quot;ITEM_FORM1224&quot;,&quot;vt&quot;:7,&quot;name&quot;:&quot;select1&quot;,&quot;valueName&quot;:&quot;select1&quot;,&quot;$$hashKey&quot;:&quot;object:2878&quot;},{&quot;id&quot;:&quot;ITEM_FORM1225&quot;,&quot;vt&quot;:8,&quot;name&quot;:&quot;select2&quot;,&quot;valueName&quot;:&quot;select2&quot;,&quot;$$hashKey&quot;:&quot;object:2879&quot;}]" lp-message-form="Cám ơn bạn đã quan tâm" lp-ss-f="[{&quot;name&quot;:&quot;name&quot;,&quot;value&quot;:&quot;name&quot;},{&quot;name&quot;:&quot;phone&quot;,&quot;value&quot;:&quot;phone&quot;},{&quot;name&quot;:&quot;street&quot;,&quot;value&quot;:&quot;diachi&quot;},{&quot;name&quot;:&quot;select1&quot;,&quot;value&quot;:&quot;data&quot;},{&quot;name&quot;:&quot;select2&quot;,&quot;value&quot;:&quot;color&quot;},{&quot;name&quot;:&quot;select3&quot;,&quot;value&quot;:&quot;type&quot;},{&quot;name&quot;:&quot;select1&quot;,&quot;value&quot;:&quot;data&quot;},{&quot;name&quot;:&quot;select2&quot;,&quot;value&quot;:&quot;color&quot;},{&quot;name&quot;:&quot;lpinput1&quot;,&quot;value&quot;:&quot;quanhuyen&quot;},{&quot;name&quot;:&quot;lpinput2&quot;,&quot;value&quot;:&quot;phuongxa&quot;},{&quot;name&quot;:&quot;select4&quot;,&quot;value&quot;:&quot;thanhpho&quot;},{&quot;name&quot;:&quot;lpinput2&quot;,&quot;value&quot;:&quot;phuongxa&quot;}]" id-conf-sv="5c1e03166efb27661e81fbc8" lp-id-pop-sub="POPUP988" lp-display="block" lp-traking-cus="{&quot;LabelEventTK&quot;:&quot;_etJCLj0z5EBEIfG9dMD&quot;,&quot;IdEventTK&quot;:&quot;981295879&quot;,&quot;nameEventTK&quot;:&quot;CompleteRegistration&quot;}">
-                    <form class="widget-content" onsubmit="return false;">
-                        <div id="ITEM_FORM1220" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="text" placeholder="Họ và Tên" name="name" lp-label="Họ và tên" lp-name-id="name" required="required">
-                        </div>
-                        <div id="ITEM_FORM1221" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="tel" pattern="[0-9]{9,15}" required="required" placeholder="Số Điện Thoại" name="phone" lp-label="Điện thoại" lp-name-id="phone">
-                        </div>
-                        <div id="ITEM_FORM1222" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="text" placeholder="Địa Chỉ (Số nhà/Tên đường/Ngõ/Hẻm/Thôn)" name="street" lp-label="Địa chỉ" lp-name-id="diachi" required="required">
-                        </div>
-                        <div id="ITEM_FORM1223" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <select class="widget-content" name="select3" placeholder="Tên Sản Phẩm" lp-label="Menu thả xuống 3" lp-name-id="type" required="required">
-                                <option value="">Tên Sản Phẩm</option>
-                                <option value="SS GLX NOTE 9">SS GLX NOTE 9</option>
-                            </select>
-                        </div>
-                        <div id="ITEM_FORM1224" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <select class="widget-content" name="select1" placeholder="Bộ Nhớ" lp-label="Menu thả xuống 1" lp-name-id="data" required="required">
-                                <option value="">Bộ Nhớ</option>
-                                <option value="128 GB">128 GB</option>
-                                <option value="256 GB">256 GB</option>
-                                <option value="512 GB">512 GB</option>
-                            </select>
-                        </div>
-                        <div id="ITEM_FORM1225" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <select class="widget-content" name="select2" placeholder="Màu Sắc" lp-label="Menu thả xuống 2" lp-name-id="color" required="required">
-                                <option value="">Màu Sắc</option>
-                                <option value="Đen">Đen</option>
-                                <option value="Xanh Dương">Xanh Dương</option>
-                                <option value="Vàng">Vàng</option>
-                            </select>
-                        </div>
-                        <div id="ITEM_FORM1226" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="text" placeholder="Quận / Huyện / Thành Phố" name="lpinput1" lp-label="Ô nhập tùy chọn 1" lp-name-id="quanhuyen" required="required">
-                        </div>
-                        <div id="ITEM_FORM1227" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <select class="widget-content" name="select4" placeholder="Thành Phố / Tỉnh" lp-label="Menu thả xuống 4" lp-name-id="thanhpho" required="required">
-                                <option value="">Thành Phố / Tỉnh</option>
-                                <option value="Thành phố Hồ Chí Minh">Thành phố Hồ Chí Minh</option>
-                                <option value="Hà Nội">Hà Nội</option>
-                                <option value="An Giang">An Giang</option>
-                                <option value="Bà Rịa Vũng Tàu">Bà Rịa Vũng Tàu</option>
-                                <option value="Bạc Liêu">Bạc Liêu</option>
-                                <option value="Bắc Kạn">Bắc Kạn</option>
-                                <option value="Bắc Giang">Bắc Giang</option>
-                                <option value="Bắc Ninh">Bắc Ninh</option>
-                                <option value="Bến Tre">Bến Tre</option>
-                                <option value="Bình Dương">Bình Dương</option>
-                                <option value="Bình Định">Bình Định</option>
-                                <option value="Bình Phước">Bình Phước</option>
-                                <option value="Bình Thuận">Bình Thuận</option>
-                                <option value="Cà Mau">Cà Mau</option>
-                                <option value="Cao Bằng">Cao Bằng</option>
-                                <option value="Cần Thơ">Cần Thơ</option>
-                                <option value="Đà Nẵng">Đà Nẵng</option>
-                                <option value="Đắk Lắk">Đắk Lắk</option>
-                                <option value="Đắk Nông">Đắk Nông</option>
-                                <option value="Đồng Nai">Đồng Nai</option>
-                                <option value="Đồng Tháp">Đồng Tháp</option>
-                                <option value="Điện Biên">Điện Biên</option>
-                                <option value="Gia Lai">Gia Lai</option>
-                                <option value="Hà Giang">Hà Giang</option>
-                                <option value="Hà Nam">Hà Nam</option>
-                                <option value="Hà Tĩnh">Hà Tĩnh</option>
-                                <option value="Hải Dương">Hải Dương</option>
-                                <option value="Hải Phòng">Hải Phòng</option>
-                                <option value="Hòa Bình">Hòa Bình</option>
-                                <option value="Hậu Giang">Hậu Giang</option>
-                                <option value="Hưng Yên">Hưng Yên</option>
-                                <option value="Khánh Hòa">Khánh Hòa</option>
-                                <option value="Kiên Giang">Kiên Giang</option>
-                                <option value="Kon Tum">Kon Tum</option>
-                                <option value="Lai Châu">Lai Châu</option>
-                                <option value="Lào Cai">Lào Cai</option>
-                                <option value="Lạng Sơn">Lạng Sơn</option>
-                                <option value="Lâm Đồng">Lâm Đồng</option>
-                                <option value="Long An">Long An</option>
-                                <option value="Nam Định">Nam Định</option>
-                                <option value="Nghệ An">Nghệ An</option>
-                                <option value="Ninh Bình">Ninh Bình</option>
-                                <option value="Ninh Thuận">Ninh Thuận</option>
-                                <option value="Phú Thọ">Phú Thọ</option>
-                                <option value="Phú Yên">Phú Yên</option>
-                                <option value="Quảng Bình">Quảng Bình</option>
-                                <option value="Quảng Nam">Quảng Nam</option>
-                                <option value="Quảng Ngãi">Quảng Ngãi</option>
-                                <option value="Quảng Ninh">Quảng Ninh</option>
-                                <option value="Quảng Trị">Quảng Trị</option>
-                                <option value="Sóc Trăng">Sóc Trăng</option>
-                                <option value="Sơn La">Sơn La</option>
-                                <option value="Tây Ninh">Tây Ninh</option>
-                                <option value="Thái Bình">Thái Bình</option>
-                                <option value="Thái Nguyên">Thái Nguyên</option>
-                                <option value="Thanh Hóa">Thanh Hóa</option>
-                                <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
-                                <option value="Tiền Giang">Tiền Giang</option>
-                                <option value="Trà Vinh">Trà Vinh</option>
-                                <option value="Tuyên Quang">Tuyên Quang</option>
-                                <option value="Vĩnh Long">Vĩnh Long</option>
-                                <option value="Vĩnh Phúc">Vĩnh Phúc</option>
-                                <option value="Yên Bái">Yên Bái</option>
-                                <option value="Không Thể Hiện Tại Đây">Không Thể Hiện Tại Đây</option>
-                            </select>
-                        </div>
-                        <div id="ITEM_FORM1228" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="text" placeholder="Phường / Xã" name="lpinput2" lp-label="Ô nhập tùy chọn 2" lp-name-id="phuongxa" required="required">
-                        </div>
-                    </form>
-                </div>
-                <div id="BUTTON1229" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1219" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span>
-                    </span>
-                </div> -->
                 <?php echo do_shortcode('[contact-form-7 id="6" title="Form 2 Giảm Giá"]'); ?>
                 <div id="GROUP1253" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block">
                     <div class="widget-content">
@@ -543,120 +444,7 @@
         <div id="POPUP930" class="widget-section ladi-drop lazy-hidden ui-droppable" lp-type="widget_section" lp-widget="widget" lp-lang="SECTION" lp-popup="true" lp-delay-show-popup-page="1" lp-display="block" style="display: none;">
             <div class="container">
                 <div class="overlay-container-popup"></div>
-                <div id="FORM1230" class="widget-element widget-snap" lp-type="contact_form" lp-lang="FORM" lp-vt-item="[{&quot;id&quot;:&quot;ITEM_FORM1231&quot;,&quot;vt&quot;:0,&quot;name&quot;:&quot;name&quot;,&quot;valueName&quot;:&quot;name&quot;,&quot;$$hashKey&quot;:&quot;object:2871&quot;},{&quot;id&quot;:&quot;ITEM_FORM1232&quot;,&quot;vt&quot;:1,&quot;name&quot;:&quot;phone&quot;,&quot;valueName&quot;:&quot;phone&quot;,&quot;$$hashKey&quot;:&quot;object:2872&quot;},{&quot;id&quot;:&quot;ITEM_FORM1233&quot;,&quot;vt&quot;:2,&quot;name&quot;:&quot;street&quot;,&quot;valueName&quot;:&quot;street&quot;,&quot;$$hashKey&quot;:&quot;object:2873&quot;},{&quot;id&quot;:&quot;ITEM_FORM1237&quot;,&quot;vt&quot;:4,&quot;name&quot;:&quot;lpinput1&quot;,&quot;valueName&quot;:&quot;lpinput1&quot;,&quot;$$hashKey&quot;:&quot;object:2874&quot;},{&quot;id&quot;:&quot;ITEM_FORM1239&quot;,&quot;vt&quot;:3,&quot;name&quot;:&quot;lpinput2&quot;,&quot;valueName&quot;:&quot;lpinput2&quot;,&quot;$$hashKey&quot;:&quot;object:2875&quot;},{&quot;id&quot;:&quot;ITEM_FORM1238&quot;,&quot;vt&quot;:5,&quot;name&quot;:&quot;select4&quot;,&quot;valueName&quot;:&quot;select4&quot;,&quot;$$hashKey&quot;:&quot;object:2876&quot;},{&quot;id&quot;:&quot;ITEM_FORM1234&quot;,&quot;vt&quot;:6,&quot;name&quot;:&quot;select3&quot;,&quot;valueName&quot;:&quot;select3&quot;,&quot;$$hashKey&quot;:&quot;object:2877&quot;},{&quot;id&quot;:&quot;ITEM_FORM1235&quot;,&quot;vt&quot;:7,&quot;name&quot;:&quot;select1&quot;,&quot;valueName&quot;:&quot;select1&quot;,&quot;$$hashKey&quot;:&quot;object:2878&quot;},{&quot;id&quot;:&quot;ITEM_FORM1236&quot;,&quot;vt&quot;:8,&quot;name&quot;:&quot;select2&quot;,&quot;valueName&quot;:&quot;select2&quot;,&quot;$$hashKey&quot;:&quot;object:2879&quot;}]" lp-message-form="Cám ơn bạn đã quan tâm" lp-ss-f="[{&quot;name&quot;:&quot;name&quot;,&quot;value&quot;:&quot;name&quot;},{&quot;name&quot;:&quot;phone&quot;,&quot;value&quot;:&quot;phone&quot;},{&quot;name&quot;:&quot;street&quot;,&quot;value&quot;:&quot;diachi&quot;},{&quot;name&quot;:&quot;select1&quot;,&quot;value&quot;:&quot;data&quot;},{&quot;name&quot;:&quot;select2&quot;,&quot;value&quot;:&quot;color&quot;},{&quot;name&quot;:&quot;select3&quot;,&quot;value&quot;:&quot;type&quot;},{&quot;name&quot;:&quot;select1&quot;,&quot;value&quot;:&quot;data&quot;},{&quot;name&quot;:&quot;select2&quot;,&quot;value&quot;:&quot;color&quot;},{&quot;name&quot;:&quot;lpinput1&quot;,&quot;value&quot;:&quot;quanhuyen&quot;},{&quot;name&quot;:&quot;lpinput2&quot;,&quot;value&quot;:&quot;phuongxa&quot;},{&quot;name&quot;:&quot;select4&quot;,&quot;value&quot;:&quot;thanhpho&quot;},{&quot;name&quot;:&quot;lpinput2&quot;,&quot;value&quot;:&quot;phuongxa&quot;}]" id-conf-sv="5c1e02d66efb27661e81fbad" lp-id-pop-sub="POPUP988" lp-display="block" lp-traking-cus="{&quot;IdEventTK&quot;:&quot;981295879&quot;,&quot;LabelEventTK&quot;:&quot;_etJCLj0z5EBEIfG9dMD&quot;,&quot;nameEventTK&quot;:&quot;CompleteRegistration&quot;}">
-                    <form class="widget-content" onsubmit="return false;">
-                        <div id="ITEM_FORM1231" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="text" placeholder="Họ và Tên" name="name" lp-label="Họ và tên" lp-name-id="name" required="required">
-                        </div>
-                        <div id="ITEM_FORM1232" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="tel" pattern="[0-9]{9,15}" required="required" placeholder="Số Điện Thoại" name="phone" lp-label="Điện thoại" lp-name-id="phone">
-                        </div>
-                        <div id="ITEM_FORM1233" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="text" placeholder="Địa Chỉ (Số nhà/Tên đường/Ngõ/Hẻm/Thôn)" name="street" lp-label="Địa chỉ" lp-name-id="diachi" required="required">
-                        </div>
-                        <div id="ITEM_FORM1234" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <select class="widget-content" name="select3" placeholder="Tên Sản Phẩm" lp-label="Menu thả xuống 3" lp-name-id="type" required="required">
-                                <option value="">Tên Sản Phẩm</option>
-                                <option value="SS GLX NOTE 9">SS GLX NOTE 9</option>
-                            </select>
-                        </div>
-                        <div id="ITEM_FORM1235" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <select class="widget-content" name="select1" placeholder="Bộ Nhớ" lp-label="Menu thả xuống 1" lp-name-id="data" required="required">
-                                <option value="">Bộ Nhớ</option>
-                                <option value="128 GB">128 GB</option>
-                                <option value="256 GB">256 GB</option>
-                                <option value="512 GB">512 GB</option>
-                            </select>
-                        </div>
-                        <div id="ITEM_FORM1236" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <select class="widget-content" name="select2" placeholder="Màu Sắc" lp-label="Menu thả xuống 2" lp-name-id="color" required="required">
-                                <option value="">Màu Sắc</option>
-                                <option value="Đen">Đen</option>
-                                <option value="Xanh Dương">Xanh Dương</option>
-                                <option value="Vàng">Vàng</option>
-                            </select>
-                        </div>
-                        <div id="ITEM_FORM1237" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="text" placeholder="Quận / Huyện / Thành Phố" name="lpinput1" lp-label="Ô nhập tùy chọn 1" lp-name-id="quanhuyen" required="required">
-                        </div>
-                        <div id="ITEM_FORM1238" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <select class="widget-content" name="select4" placeholder="Thành Phố / Tỉnh" lp-label="Menu thả xuống 4" lp-name-id="thanhpho" required="required">
-                                <option value="">Thành Phố / Tỉnh</option>
-                                <option value="Thành phố Hồ Chí Minh">Thành phố Hồ Chí Minh</option>
-                                <option value="Hà Nội">Hà Nội</option>
-                                <option value="An Giang">An Giang</option>
-                                <option value="Bà Rịa Vũng Tàu">Bà Rịa Vũng Tàu</option>
-                                <option value="Bạc Liêu">Bạc Liêu</option>
-                                <option value="Bắc Kạn">Bắc Kạn</option>
-                                <option value="Bắc Giang">Bắc Giang</option>
-                                <option value="Bắc Ninh">Bắc Ninh</option>
-                                <option value="Bến Tre">Bến Tre</option>
-                                <option value="Bình Dương">Bình Dương</option>
-                                <option value="Bình Định">Bình Định</option>
-                                <option value="Bình Phước">Bình Phước</option>
-                                <option value="Bình Thuận">Bình Thuận</option>
-                                <option value="Cà Mau">Cà Mau</option>
-                                <option value="Cao Bằng">Cao Bằng</option>
-                                <option value="Cần Thơ">Cần Thơ</option>
-                                <option value="Đà Nẵng">Đà Nẵng</option>
-                                <option value="Đắk Lắk">Đắk Lắk</option>
-                                <option value="Đắk Nông">Đắk Nông</option>
-                                <option value="Đồng Nai">Đồng Nai</option>
-                                <option value="Đồng Tháp">Đồng Tháp</option>
-                                <option value="Điện Biên">Điện Biên</option>
-                                <option value="Gia Lai">Gia Lai</option>
-                                <option value="Hà Giang">Hà Giang</option>
-                                <option value="Hà Nam">Hà Nam</option>
-                                <option value="Hà Tĩnh">Hà Tĩnh</option>
-                                <option value="Hải Dương">Hải Dương</option>
-                                <option value="Hải Phòng">Hải Phòng</option>
-                                <option value="Hòa Bình">Hòa Bình</option>
-                                <option value="Hậu Giang">Hậu Giang</option>
-                                <option value="Hưng Yên">Hưng Yên</option>
-                                <option value="Khánh Hòa">Khánh Hòa</option>
-                                <option value="Kiên Giang">Kiên Giang</option>
-                                <option value="Kon Tum">Kon Tum</option>
-                                <option value="Lai Châu">Lai Châu</option>
-                                <option value="Lào Cai">Lào Cai</option>
-                                <option value="Lạng Sơn">Lạng Sơn</option>
-                                <option value="Lâm Đồng">Lâm Đồng</option>
-                                <option value="Long An">Long An</option>
-                                <option value="Nam Định">Nam Định</option>
-                                <option value="Nghệ An">Nghệ An</option>
-                                <option value="Ninh Bình">Ninh Bình</option>
-                                <option value="Ninh Thuận">Ninh Thuận</option>
-                                <option value="Phú Thọ">Phú Thọ</option>
-                                <option value="Phú Yên">Phú Yên</option>
-                                <option value="Quảng Bình">Quảng Bình</option>
-                                <option value="Quảng Nam">Quảng Nam</option>
-                                <option value="Quảng Ngãi">Quảng Ngãi</option>
-                                <option value="Quảng Ninh">Quảng Ninh</option>
-                                <option value="Quảng Trị">Quảng Trị</option>
-                                <option value="Sóc Trăng">Sóc Trăng</option>
-                                <option value="Sơn La">Sơn La</option>
-                                <option value="Tây Ninh">Tây Ninh</option>
-                                <option value="Thái Bình">Thái Bình</option>
-                                <option value="Thái Nguyên">Thái Nguyên</option>
-                                <option value="Thanh Hóa">Thanh Hóa</option>
-                                <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
-                                <option value="Tiền Giang">Tiền Giang</option>
-                                <option value="Trà Vinh">Trà Vinh</option>
-                                <option value="Tuyên Quang">Tuyên Quang</option>
-                                <option value="Vĩnh Long">Vĩnh Long</option>
-                                <option value="Vĩnh Phúc">Vĩnh Phúc</option>
-                                <option value="Yên Bái">Yên Bái</option>
-                                <option value="Không Thể Hiện Tại Đây">Không Thể Hiện Tại Đây</option>
-                            </select>
-                        </div>
-                        <div id="ITEM_FORM1239" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
-                            <input class="widget-content" type="text" placeholder="Phường / Xã" name="lpinput2" lp-label="Ô nhập tùy chọn 2" lp-name-id="phuongxa" required="required">
-                        </div>
-                    </form>
-                    <!-- <?php echo do_shortcode('[contact-form-7 id="5" title="Giảm giá"]'); ?> -->
-                </div>
-                <div id="BUTTON1240" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1230" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span>
-                    </span>
-                </div>
+                <?php echo do_shortcode('[contact-form-7 id="32" title="Form Giảm Giá Click"]'); ?>
                 <div id="PARAGRAPH939" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-display="block">
                     <p class="widget-content" lp-node="p">SAMSUNG GALAXY NOTE 9
                         <br>
