@@ -650,7 +650,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div id="GROUP1255" class="widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-sticky="1" lp-sticky-pos="bottom" lp-sticky-kc="0px">
+                <div id="GROUP1255" class="box-infomation-cout-time widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-sticky="1" lp-sticky-pos="bottom" lp-sticky-kc="0px">
                     <div class="widget-content">
                         <div id="BOX840" class="widget-element widget-snap ladi-drop lazy-hidden" lp-type="box" lp-lang="BOX" lp-group="GROUP1255" lp-display="block" lp-hashtag="canhhai198@gmail.com" lp-action-link="POPUP930" lp-action-type="popup" lp-target="" href="">
                             <div class="widget-content">

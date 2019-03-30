@@ -124,3 +124,10 @@ div.wpcf7-response-output {
 .custommer-slider-images .widget-content {
     position: absolute;
 }
+
+/* BOX COUNT TIME */
+@media (min-width: 768px) {
+    .box-infomation-cout-time {
+        left: 328px !important;
+    }
+}

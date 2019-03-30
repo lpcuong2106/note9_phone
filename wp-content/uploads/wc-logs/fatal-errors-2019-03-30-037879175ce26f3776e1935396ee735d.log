@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 2019-03-30T00:26:19+00:00 CRITICAL Uncaught Error: Call to undefined function posix_getgrgid() in C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php:231
 Stack trace:
 #0 C:\xampp\htdocs\DocumentRoot\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php(126): KUSANAGI_Security_Check->get_file_info('C:\\xampp\\htdocs...')
@@ -82,7 +82,6 @@ Stack trace:
 2019-03-30T02:18:39+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
 
 2019-03-30T02:18:49+00:00 CRITICAL Call to undefined function posix_getgrgid() in C:\xampp\htdocs\note_9\wp-content\mu-plugins\kusanagi-core\modules\security-checker.php on line 231
->>>>>>> origin/ancao
 
 2019-03-30T05:28:41+00:00 CRITICAL syntax error, unexpected '<<' (T_SL), expecting end of file in C:\xampp\htdocs\DocumentRoot\wp-content\themes\understrap-child\functions.php on line 130
 
