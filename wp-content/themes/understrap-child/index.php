@@ -24,11 +24,12 @@
       <link rel="preconnect" href="https://static.ladipage.net/" crossorigin>
       <link rel="preconnect" href="https://api.ladipage.vn/" crossorigin>
       <link type="text/css" rel="stylesheet" media="screen, print" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:300,400,700|Montserrat:300,400,600,700|Bungee&amp;subset=latin-ext,vietnamese">
-      </style>
+      
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
       <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/jquery.countdown.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/note9.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
       <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
       <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/common.css">

@@ -53,6 +53,8 @@ function note_theme_enqueue_styles() {
     
 }
 
+
+
 /* DISABLE CLASSIS EDITOR WORDPRESS */
 
 if ( version_compare($GLOBALS['wp_version'], '5.0-beta', '>') ) {
