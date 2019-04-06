@@ -45,7 +45,7 @@
         //'disable_google_fonts_link' => true,                    // Disable this in case you want to create your own google fonts loader
         'admin_bar'            => true,
         // Show the panel pages on the admin bar
-        'admin_bar_icon'       => 'el el-edit',
+        'admin_bar_icon'       => '',
         // Choose an icon for the admin bar menu
         'admin_bar_priority'   => 50,
         // Choose an priority for the admin bar menu
@@ -133,23 +133,23 @@
     );
 
     // ADMIN BAR LINKS -> Setup custom links in the admin bar menu as external items.
-    $args['admin_bar_links'][] = array(
-        'id'    => 'redux-docs',
-        'href'  => 'http://docs.reduxframework.com/',
-        'title' => __( 'Documentation', 'redux-framework-demo' ),
-    );
+    // $args['admin_bar_links'][] = array(
+    //     'id'    => 'redux-docs',
+    //     'href'  => 'http://docs.reduxframework.com/',
+    //     'title' => __( 'Documentation', 'redux-framework-demo' ),
+    // );
 
-    $args['admin_bar_links'][] = array(
-        //'id'    => 'redux-support',
-        'href'  => 'https://github.com/ReduxFramework/redux-framework/issues',
-        'title' => __( 'Support', 'redux-framework-demo' ),
-    );
+    // $args['admin_bar_links'][] = array(
+    //     //'id'    => 'redux-support',
+    //     'href'  => 'https://github.com/ReduxFramework/redux-framework/issues',
+    //     'title' => __( 'Support', 'redux-framework-demo' ),
+    // );
 
-    $args['admin_bar_links'][] = array(
-        'id'    => 'redux-extensions',
-        'href'  => 'reduxframework.com/extensions',
-        'title' => __( 'Extensions', 'redux-framework-demo' ),
-    );
+    // $args['admin_bar_links'][] = array(
+    //     'id'    => 'redux-extensions',
+    //     'href'  => 'reduxframework.com/extensions',
+    //     'title' => __( 'Extensions', 'redux-framework-demo' ),
+    // );
 
     // SOCIAL ICONS -> Setup custom links in the footer for quick links in your panel footer icons.
  
@@ -233,53 +233,38 @@
                 'type'     => 'text',
                 'title'    => __( 'Email', 'note9' ),
                 'subtitle' => __( 'Email hiển thị ở Footer.', 'note9' ),
-                'hint'     => array(
-                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
-                )
+                
             ),
             array(
                 'id'       => 'support-opt',
                 'type'     => 'text',
                 'title'    => __( 'Hỗ Trợ Kỹ Thuật', 'note9' ),
                 'subtitle' => __( 'Số điện thoại hỗ trợ kỹ thuật hiển thị ở Footer.', 'note9' ),
-                'hint'     => array(
-                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
-                )
+                            
             ),
             array(
                 'id'       => 'support_order-opt',
                 'type'     => 'text',
                 'title'    => __( 'Tư Vấn Đặt Hàng', 'note9' ),
                 'subtitle' => __( 'Số điện thoại tư vấn đặt hàng hiển thị ở Footer và Header.', 'note9' ),
-                'hint'     => array(
-                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
-                )
+                
             ),
             array(
                 'id'       => 'address-opt',
                 'type'     => 'text',
                 'title'    => __( 'Địa Chỉ Cửa Hàng', 'note9' ),
                 'subtitle' => __( 'Địa Chỉ Cửa Hàng hiển thị ở Footer.', 'note9' ),
-                'hint'     => array(
-                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
-                )
+                
             ),
             array(
                 'id'       => 'time-opt',
                 'type'     => 'text',
                 'title'    => __( 'Thời gian làm việc', 'note9' ),
                 'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
-                'hint'     => array(
-                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
-                )
+                
             ),
            
-            array(
-                'id'       => 'gio-opt',
-                'type'     => 'text',
-                'title'    => __( 'gio', 'note9' ),
-                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
-            ),
+            
             array(
                 'id'       => 'number-slider-opt',
                 'type'     => 'text',
@@ -290,30 +275,31 @@
                 )
             ),
             array(
+                'id'       => 'gio-opt',
+                'type'     => 'text',
+                'title'    => __( 'Giờ', 'note9' ),
+                'subtitle' => __( 'Đặt giờ hết hạn chương trình khuyến mãi.', 'note9' ),
+            ),
+            array(
                 'id'       => 'phut-opt',
                 'type'     => 'text',
-                'title'    => __( 'phut', 'note9' ),
-                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
-                'hint'     => array(
-                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
-                )
+                'title'    => __( 'Phút', 'note9' ),
+                'subtitle' => __( 'Đặt phút hết hạn chương trình khuyến mãi.', 'note9' ),
+                
             ),
             array(
                 'id'       => 'giay-opt',
                 'type'     => 'text',
-                'title'    => __( 'giay', 'note9' ),
-                'subtitle' => __( 'Thời gian làm việc ngày giờ.', 'note9' ),
-                'hint'     => array(
-                    'content' => 'This is a <b>hint</b> tool-tip for the text field.<br/><br/>Add any HTML based text you like here.',
-                )
+                'title'    => __( 'Giây', 'note9' ),
+                'subtitle' => __( 'Đặt giây hết hạn chương trình khuyến mãi.', 'note9' ),
+                
             ),
             array(
                 'id'          => 'opt-date',
                 'type'        => 'date',
-                'title'       => __('Date Option', 'redux-framework-demo'), 
-                'subtitle'    => __('No validation can be done on this field type', 'redux-framework-demo'),
-                'desc'        => __('This is the description field, again good for additional info.', 'redux-framework-demo'),
-                'placeholder' => 'Click to enter a date'
+                'title'       => __('Đặt ngày', 'redux-framework-demo'), 
+                'subtitle'    => __('Đặt ngày/tháng/năm hết hạn chương trình khuyến mãi.', 'redux-framework-demo'),
+                'placeholder' => 'Ví dụ: 03/31/2019'
             ),
             array(
                     'id'=>'opt-textFooter',

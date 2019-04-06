@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html>
 <?php date_default_timezone_set("Asia/Bangkok"); ?>
-<head lang="en">
-<meta charset="UTF-8">
-      
-      <meta http-equiv="Cache-control" content="no-cache">
-      <meta http-equiv="Expires" content="-1">
-      <meta name="description" content="">
-      <meta name="keywords" content="dienthoaithongminh; didongthongminh; điện thoại thông minh; điện thoại giá rẻ; điện thoại rẻ; điện thoại galaxy note 9; samsung galaxy note 9; galaxy s9">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script>function ladiViewport(){var width = (window.outerWidth > 0) ? window.outerWidth : screen.width;var content = "user-scalable=no";if(width < 768){content += ", width=375";}else{if(width < 960){content += ", width=960";} else {content += ", width=device-width";}}var meta=document.querySelector('meta[name="viewport"]');if (meta == undefined) {meta = document.createElement('meta'); meta.name = 'viewport'; document.head.prepend(meta);}meta.content=content; };ladiViewport();</script>
+<head lang="<?php bloginfo('language') ?>">
+<meta charset="<?php bloginfo('charset') ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>function ladiViewport(){var width = (window.outerWidth > 0) ? window.outerWidth : screen.width;var content = "user-scalable=no";if(width < 768){content += ", width=375";}else{if(width < 960){content += ", width=960";} else {content += ", width=device-width";}}var meta=document.querySelector('meta[name="viewport"]');if (meta == undefined) {meta = document.createElement('meta'); meta.name = 'viewport'; document.head.prepend(meta);}meta.content=content; };ladiViewport();</script>
+<link type="text/css" rel="stylesheet" media="screen, print" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:300,400,700|Montserrat:300,400,600,700|Bungee&amp;subset=latin-ext,vietnamese">
+<script src="<?php echo get_stylesheet_directory_uri()?>/js/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/note9.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-      <link type="text/css" rel="stylesheet" media="screen, print" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:300,400,700|Montserrat:300,400,600,700|Bungee&amp;subset=latin-ext,vietnamese">
-      
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-      <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/jquery.countdown.min.js"></script>
-      <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/note9.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/common.css">
 
-      <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
-      <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/common.css">
-      <script>document.addEventListener("DOMContentLoaded",function(){var a=[].slice.call(document.querySelectorAll(".lazy-hidden")),b=[].slice.call(document.querySelectorAll("iframe.widget-content")),c=!1,d=200;const e=function(){c===!1&&(c=!0,setTimeout(function(){a.forEach(function(a){var b=a.getBoundingClientRect();b.top<=window.innerHeight&&b.bottom>0&&a.classList.remove("lazy-hidden")}),b.forEach(function(a){var b=a.getBoundingClientRect(),c=a.getAttribute("data-src");b.top<=window.innerHeight&&b.bottom>0&&Boolean(c)&&(a.setAttribute("src",c),a.removeAttribute("data-src"))}),0===a.length&&0===b.length&&(document.removeEventListener("scroll",e),window.removeEventListener("resize",e),window.removeEventListener("orientationchange",e)),c=!1},d))};e(),d=200,document.addEventListener("scroll",e),window.addEventListener("resize",e),window.addEventListener("orientationchange",e)});</script>
-      <style>.lazy-hidden,.lazy-hidden>.widget-content,.lazy-hidden>.container, .lazy-hidden>.widget-content>.lp-show-image{background-image:none!important}</style>
-      <link rel="stylesheet" media="none" onload="if(media!='all')media='all'" href="https://static.ladipage.net/source/animate.min.css?v=160318">
-      <script type="text/javascript" async src="https://static.ladipage.net/source/ladipage.lib.3.js?v=0111022019"></script>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130479717-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag('config','UA-130479717-1');gtag('config','AW-981295879');</script><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','340859390048755');fbq('track','PageView');fbq('track','ViewContent');</script> 
-      <noscript><img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=340859390048755&ev=PageView&noscript=1" /></noscript>
-      <?php wp_head() ?>
+<script> document.addEventListener("DOMContentLoaded", function() {
+    var a = [].slice.call(document.querySelectorAll(".lazy-hidden")),
+        b = [].slice.call(document.querySelectorAll("iframe.widget-content")),
+        c = !1,
+        d = 200;
+    const e = function() {
+        c === !1 && (c = !0, setTimeout(function() {
+            a.forEach(function(a) {
+                var b = a.getBoundingClientRect();
+                b.top <= window.innerHeight && b.bottom > 0 && a.classList.remove("lazy-hidden")
+            }), b.forEach(function(a) {
+                var b = a.getBoundingClientRect(),
+                    c = a.getAttribute("data-src");
+                b.top <= window.innerHeight && b.bottom > 0 && Boolean(c) && (a.setAttribute("src", c), a.removeAttribute("data-src"))
+            }), 0 === a.length && 0 === b.length && (document.removeEventListener("scroll", e), window.removeEventListener("resize", e), window.removeEventListener("orientationchange", e)), c = !1
+        }, d))
+    };
+    e(), d = 200, document.addEventListener("scroll", e), window.addEventListener("resize", e), window.addEventListener("orientationchange", e)
+}); 
+</script>
+<link rel="stylesheet" media="none" onload="if(media!='all')media='all'" href="https://static.ladipage.net/source/animate.min.css?v=160318">
+<script type="text/javascript" async src="<?php echo get_stylesheet_directory_uri() ?>/js/main.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130479717-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag('config','UA-130479717-1');gtag('config','AW-981295879');</script><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','340859390048755');fbq('track','PageView');fbq('track','ViewContent');</script> 
+<noscript><img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=340859390048755&ev=PageView&noscript=1" /></noscript>
+
+<?php //wp_head() ?>
 </head>
 
 <body>
@@ -186,14 +200,29 @@
                                 <div class="control-slider-left"></div>
                                 <div class="control-slider-right"></div>
                                 <div class="wrap-child">
+                                   <?php
+                                  
+                                            if (!empty($redux_pc['images-form1-opt']['url'])){ 
+                                    ?>
                                     <div id="ITEM-CAROUSEL1257" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
+                                        <div class="widget-content" style="<?php 
+                                        echo 'background-image:url('. $redux_pc['images-form1-opt']['url'] . ')!important' ?>">
+                                        </div>
                                         <div class="ladi-widget-overlay"></div>
                                     </div>
+                                <?php  }
+                                ?>  
+                                <?php
+                                      if (!empty($redux_pc['images-form2-opt']['url'])){ 
+                                ?>
+                                       <!-- check -->
                                     <div id="ITEM-CAROUSEL1258" class="widget-element widget-item-child lazy-hidden" lp-type="item_slider" lp-lang="ITEM-CAROUSEL" lp-display="block">
-                                        <div class="widget-content"></div>
+                                        <div class="widget-content" style="<?php 
+                                        echo 'background-image:url('. $redux_pc['images-form2-opt']['url'] . ')!important' ?>"></div>
                                         <div class="ladi-widget-overlay"></div>
                                     </div>
+                                    <?php  }
+                                    ?>  
                                 </div>
                             </div>
                         </div>
@@ -490,12 +519,23 @@
                 <?php echo do_shortcode('[contact-form-7 id="32" title="Form Giảm Giá Click"]'); ?>
 
                 <div id="PARAGRAPH939" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-display="block">
-                    <p class="widget-content" lp-node="p">SAMSUNG GALAXY NOTE 9
+                    <p class="widget-content" lp-node="p">
+                      <?php
+                            $options = get_option( 'note91_setting_theme' );
+                            if (isset($options['note91_name_product'])){ $note91_name_product = $options['note91_name_product'];}
+                            ?>
+                            <?php if ( $note91_name_product != "" ){ echo strtoupper($note91_name_product); } 
+                      ?>
                         <br>
                     </p>
                 </div>
                 <div id="PARAGRAPH940" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-display="block">
-                    <p class="widget-content" lp-node="p">GIÁ CHỈ 2.699.000 VNĐ
+                    <p class="widget-content" lp-node="p">GIÁ CHỈ 
+                            <?php
+                                    $options = get_option( 'note91_setting_theme' );
+                                    if (isset($options['note91_price_sale'])){ $note91_price_sale = $options['note91_price_sale'];}
+                                    ?>
+                              <?php if ( $note91_price_sale != "" ){ echo number_format($note91_price_sale) .'VNĐ'; }?>
                         <br>
                     </p>
                 </div>
@@ -641,9 +681,7 @@
                         
                             <?php echo do_shortcode('[contact-form-7 id="7" title="Form Giảm Giá 3"]'); ?>
                         </div>
-                        <!-- <div id="BUTTON1218" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1208" lp-group="GROUP1242" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span>
-                            </span>
-                        </div> -->
+                        
                     </div>
                 </div>
                 <div id="GROUP1255" class="box-infomation-cout-time widget-element widget-snap widget-group" lp-type="widget_group" lp-lang="GROUP" lp-display="block" lp-sticky="1" lp-sticky-pos="bottom" lp-sticky-kc="0px">
@@ -721,7 +759,73 @@
             <div class="ladi-widget-overlay"></div>
         </div>
     </div>
-    <?php wp_footer() ?>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          if($('.wpcf7-response-output').hasClass('wpcf7-mail-sent-ok')){
+                 // Create a text node
+              $('#POPUP988').addClass('ShowAlertSuccess');
+              $('#POPUP988').append('<div class="closePop" style="top:-25px; right:0;">X</div>');
+              
+              $('#POPUP988').click(function(event) {
+                /* Act on the event */
+                if(event.target !== $('#POPUP988 .container') && !$('#POPUP988 .container').has(event.target).length) {
+                    // hide the menu...
+                    $('#POPUP988').removeClass('ShowAlertSuccess');
+                }
+              });               
+          }
+          if($('#ITEM_FORM1197 span').length>0){
+            $('#ITEM_FORM1197 span').remove();
+            $('#ITEM_FORM1197').append('<span class="formHintBubble" style="top: -34.9881939px;left:0.0105445px;width:448.078125px;">Vui lòng điền vào trường này.</span>');
+          }
+          else if($('#ITEM_FORM1198 span').text() == "Số điện thoại không hợp lệ" ){
+            // $('#ITEM_FORM1198 span').remove();
+            $('#ITEM_FORM1198').append('<span class="formHintBubble" style="top: -33.9845px;left:0.00654454px;width:448.078125px;">Vui lòng điền khớp định dạng yêu cầu.</span>');
+          }else if($('#ITEM_FORM1198 span').length>0 ){
+            // $('#ITEM_FORM1198 span').remove();
+            $('#ITEM_FORM1198').append('<span class="formHintBubble" style="top: -33.9845px;left:0.00654454px;width:448.078125px;">Vui lòng điền vào trường này.</span>');
+          }else if($('#ITEM_FORM1199 span').length>0){
+            $('#ITEM_FORM1199 span').remove();
+            $('#ITEM_FORM1199').append('<span class="formHintBubble" style="top:-36.9845px;left:0.00654454px;width:448.078125px;">Vui lòng điền vào trường này.</span>');
+          }
+
+          //form 2
+          if($('#ITEM_FORM1220 span').length>0){
+            $('#ITEM_FORM1220 span').remove();
+            $('#ITEM_FORM1220').append('<span class="formHintBubble" style="top: -34.9881939px;left:0.0177394px;width:753.8125px;">Vui lòng điền vào trường này.</span>');
+          }
+          else if($('#ITEM_FORM1221 span').text() == "Số điện thoại không hợp lệ"){
+            // $('#ITEM_FORM1210 span').remove();
+            $('#ITEM_FORM1221').append('<span class="formHintBubble" style="top:-34.9845px;left:0.0110101px;width:753.8125px;">Vui lòng điền khớp định dạng yêu cầu.</span>');
+          }
+          else if($('#ITEM_FORM1221 span').length>0 ){
+            // $('#ITEM_FORM1221 span').remove();
+            $('#ITEM_FORM1221').append('<span class="formHintBubble" style="top: -34.9845px;left:0.0110101px;width:753.8125px;">Vui lòng điền vào trường này.</span>');
+          }else if($('#ITEM_FORM1222 span').length>0){
+            $('#ITEM_FORM1222 span').remove();
+            $('#ITEM_FORM1222').append('<span class="formHintBubble" style="top: -33.9876px;left:0.157373px;width:753.8125px;">Vui lòng điền vào trường này.</span>');
+          }
+          //form 3
+          if($('#ITEM_FORM1209 span').length>0){
+            $('#ITEM_FORM1209 span').remove();
+            $('#ITEM_FORM1209').append('<span class="formHintBubble" style="top: -34.9881939px;left:0.0105445px;width:448.078125px;">Vui lòng điền vào trường này.</span>');
+          }
+          else if($('#ITEM_FORM1210 span').text() == "Số điện thoại không hợp lệ"){
+            // $('#ITEM_FORM1210 span').remove();
+            $('#ITEM_FORM1210').append('<span class="formHintBubble" style="top: -34.9845px;left:0.0110101px;width:448.078125px;">Vui lòng điền khớp định dạng yêu cầu.</span>');
+          }
+          else if($('#ITEM_FORM1210 span').length>0 ){
+            // $('#ITEM_FORM1210 span').remove();
+            $('#ITEM_FORM1210').append('<span class="formHintBubble" style="top: -34.9845px;left:0.0110101px;width:448.078125px;">Vui lòng điền vào trường này.</span>');
+          }
+          else if($('#ITEM_FORM1211 span').length>0){
+            $('#ITEM_FORM1211 span').remove();
+            $('#ITEM_FORM1211').append('<span class="formHintBubble" style="    top: -32.0455px;left:0px;width:448.078125px;">Vui lòng điền vào trường này.</span>');
+          }
+      });
+    </script>
+    <?php echo do_shortcode('[chatbot]'); ?>
+    <?php //wp_footer() ?>
 </body>
 
 </html>

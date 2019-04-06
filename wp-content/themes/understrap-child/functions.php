@@ -10,6 +10,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+function setup_theme(){
+    add_theme_support('title-tag');
+    add_theme_support( 'automatic-feed-links' );
+     /* HTML5 */
+    add_theme_support( 'html5' );
+}
+add_action('after_setup_theme', 'setup_theme');
+
+
 function understrap_remove_scripts() {
     wp_dequeue_style( 'understrap-styles' );
     wp_deregister_style( 'understrap-styles' );
@@ -117,20 +126,6 @@ add_filter('wpcf7_form_elements', function($content) {
     return $content;
 });
 
-if ( !function_exists('register_sidebar_footer') ){
-    function register_sidebar_footer() {
-    register_sidebar( array(
-        'name'          => __( 'Footer Copyright', 'note9.sharenows.com' ),
-        'id'            => 'sidebar-footer',
-        'description'   => __( 'Widgets in this area will be shown on footer.', 'note9.sharenows.com' ),
-        'before_widget' => '<li id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</li>',
-        'before_title'  => '<h2 class="widgettitle">',
-        'after_title'   => '</h2>',
-    ) );
-    }
-    add_action( 'widgets_init', 'register_sidebar_footer' );
-}
 
 if(!function_exists('count_time')){
     function count_time(){
@@ -200,5 +195,5 @@ if (!function_exists('create_shortcode_show_slider')) {
             ?>	
         <?php }
     };
-    add_shortcode('SHOW-SLIDER', 'create_shortcode_show_slider');
+    add_shortcode('SHOW-SLIDER', 'create_shortcode_show_slider');   
 };
